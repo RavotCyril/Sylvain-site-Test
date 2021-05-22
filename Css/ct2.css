@@ -1,3 +1,24 @@
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    width:650px;
+  }
+  .grid-item1 {
+
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size:15px;
+    height:30px;
+    color:#FFFF66;
+    background:#663300;
+  }
+  .grid-item{
+
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+
 .parag {
 
 border-width: 1px;
