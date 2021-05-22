@@ -12,7 +12,17 @@
     opacity: 1;
   }
 }
+@keyframes h1
 
+{
+    0%
+    {
+    transform: translate(360°);
+    opacity: 0;
+    }
+    100%
+
+}
 .Figure1 img
 {
     width:100%; 
