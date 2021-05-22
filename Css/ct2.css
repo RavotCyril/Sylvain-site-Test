@@ -3,13 +3,13 @@
 {
   0% 
   {
-    transform: translatey(0px);
-    opacity: 0;
+    transform:translatey(0px);
+    opacity:0;
   }
   100% 
   {
-    transform: translatey(-10px);
-    opacity: 1;
+    transform:translatey(-10px);
+    opacity:1;
   }
 }
 @keyframes h1
@@ -17,11 +17,20 @@
 {
     0%
     {
-    transform: translate(360°);
-    opacity: 0;
+    transform:translate(-500px) rotate(360deg);
+    opacity:0;
     }
     100%
+    {
+    transform:translate(100px) rotate(360deg);
+    opacity:1;
+    }
+}
 
+h1
+{
+    width:800px;
+    animation:1.925s ease h1;
 }
 .Figure1 img
 {
@@ -29,7 +38,7 @@
     height:100%; 
     object-fit:cover; 
     object-position: center;
-    animation:1.925s ease-in photo;
+    animation:5s ease-in photo;
 }
 
 .Figure2 img
@@ -38,7 +47,7 @@
     height:100%; 
     object-fit:cover; 
     object-position: center;
-    animation: 1.925s linear photo;
+    animation:3s linear photo;
 }
 
 .Figure3 img
@@ -47,7 +56,7 @@
     height:100%; 
     object-fit:cover; 
     object-position: center;
-    animation: 1.925s ease photo;
+    animation:1s ease photo;
 
 }
 
