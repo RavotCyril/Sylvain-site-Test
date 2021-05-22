@@ -1,63 +1,9 @@
-@keyframes photo
-
-{
-  0% 
-  {
-    transform:translatey(0px);
-    opacity:0;
-  }
-  100% 
-  {
-    transform:translatey(-10px);
-    opacity:1;
-  }
-}
-@keyframes h1
-
-{
-    0%
-    {
-    transform:translate(-500px) rotate(360deg);
-    opacity:0;
-    }
-    100%
-    {
-    transform:translate(100px) rotate(360deg);
-    opacity:1;
-    }
-}
-
-h1
-{
-    width:800px;
-    animation:1.925s ease h1;
-}
 .Figure1 img
 {
     width:100%; 
     height:100%; 
     object-fit:cover; 
     object-position: center;
-    animation:5s ease-in photo;
-}
-
-.Figure2 img
-{
-    width:100%; 
-    height:100%; 
-    object-fit:cover; 
-    object-position: center;
-    animation:3s linear photo;
-}
-
-.Figure3 img
-{
-    width:100%; 
-    height:100%; 
-    object-fit:cover; 
-    object-position: center;
-    animation:1s ease photo;
-
 }
 
 .Figure
