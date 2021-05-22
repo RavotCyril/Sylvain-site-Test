@@ -217,7 +217,7 @@ padding:8px;
 
 a:link {
 
-    color: #004D66;
+    color: #00A5DB;
     text-decoration: none;
 
 }
@@ -231,7 +231,7 @@ a:visited {
 
 a:hover {
 
-    color: #004157;
+    color: #00A5DB;
 }
 
 @media screen and (min-width:769px) and (max-width:1089px)  /* styles pour tablettes*/
