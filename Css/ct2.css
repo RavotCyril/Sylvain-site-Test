@@ -135,17 +135,11 @@ background-image: url('bgcases.gif');
 .fs {
 
 margin-bottom:0px;
-
 padding-bottom:0.2em;
-
 padding-top:0.2em;
-
 padding-right:0.2em;
-
-border-width: 1px;
-
-border-color: black;
-
+border-width:1px;
+border-color:black;
 width:80%;
 
 }
@@ -153,13 +147,9 @@ width:80%;
 .beige {
 
 border-width: 1px;
-
 border-color: black;
-
 border-style: solid;
-
 padding:3px;
-
 background-color: #FAF0E6;
 
 }
@@ -167,23 +157,14 @@ background-color: #FAF0E6;
 .bandeau {
 
 width:90%;
-
 border-width: 0px;
-
 border-color: black;
-
 border-style: solid;
-
 padding:3px;
-
 background-color: #FAF0E6;
-
 border-bottom-width: 2px;
-
 border-color: black;
-
 border-style: solid;
-
 margin: 0px auto;
 
 }
@@ -191,21 +172,13 @@ margin: 0px auto;
 .piedpage {
 
 width : 90%;
-
 border-width: 0px;
-
 border-color: black;
-
 border-style: solid;
-
 padding:2px;
-
 background-color: #FAF0E6;
-
 border-top-width: 2px;
-
 border-color: black;
-
 border-style: solid;
 
 }
@@ -213,13 +186,9 @@ border-style: solid;
 .tablegenerale {
 
 border-width: 0px;
-
 background-color: RGB(242,242,242);
-
 width: 90%;
-
 margin:1px auto;
-
 padding:8px;
 
 }
@@ -249,7 +218,6 @@ padding:8px;
 a:link {
 
     color: #004D66;
-
     text-decoration: none;
 
 }
@@ -257,18 +225,15 @@ a:link {
 a:visited {
 
     color: #00759B;
-
     text-decoration: none;
 
 }
 
 a:hover {
 
-    color: #004D66;
-
-    text-decoration: underline;
-
+    color: #004157;
 }
+
 @media screen and (min-width:769px) and (max-width:1089px)  /* styles pour tablettes*/
 {
 .bandeau {
@@ -312,9 +277,9 @@ img
 .citation
 {
 	background: #DADADA;
-	padding: 10px;
-	border-radius: 10px;
-	margin-left: 10px;
-	line-height: 130%;
-	text-align: center;"
+	padding:10px;
+	border-radius:10px;
+	margin-left:10px;
+	line-height:130%;
+	text-align:center;
 }
