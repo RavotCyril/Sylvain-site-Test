@@ -134,7 +134,8 @@ padding: 8px;
 
 .piedpage {
 
-width : 90%;
+width:91%;
+margin:0px auto;
 border-width: 0px;
 border-color: black;
 border-style: solid;
@@ -199,6 +200,10 @@ h1{
 
 }
 
+.piedpage {
+
+    width:91.7%;
+}
 .imghaut
 {
     width:100%; 
@@ -225,6 +230,11 @@ h1{
 
     width:92.5%;
 
+}
+
+.piedpage {
+
+    width:92%;
 }
 
 img
@@ -258,6 +268,27 @@ img
 
     width:94.5%;
 
+}
+
+.piedpage {
+
+    width:94%;
+
+}
+.Contact-Apropos{
+
+    display:flex;
+    flex-direction: column;
+}
+
+.Contact{
+
+    font-size: 16px;
+}
+
+.Apropos{
+
+    font-size: 16px;
 }
 
 }
