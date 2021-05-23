@@ -107,6 +107,13 @@ border-style: solid;
 margin: 0px auto;
 
 }
+.Organisation-des-3-Photos-Introduction{
+
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+
+}
 
 .Introduction-Photo img{
 
