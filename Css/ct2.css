@@ -59,7 +59,8 @@ font-size: 18px;
 }
 
 body {
-background-image:url("bgcases.gif");
+    background-image:url("bgcases.gif");
+    font-family:"Roboto Regular, arial, sans serif";
 
 }
 
