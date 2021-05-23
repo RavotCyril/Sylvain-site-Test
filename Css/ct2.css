@@ -188,6 +188,12 @@ a:hover {
     color: #00A5DB;
 }
 
+.Apropos{
+
+    text-align:right;
+    font-size: 16px;
+}
+
 @media screen and (min-width:769px) and (max-width:1089px)  /* styles pour tablettes*/
 {
 h1{
@@ -282,11 +288,6 @@ img
 }
 
 .Contact{
-
-    font-size: 16px;
-}
-
-.Apropos{
 
     font-size: 16px;
 }
