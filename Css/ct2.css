@@ -188,6 +188,10 @@ a:hover {
 
 @media screen and (min-width:769px) and (max-width:1089px)  /* styles pour tablettes*/
 {
+h1{
+    font-size:1.75rem;
+}
+
 .bandeau {
 
     padding:0px;
@@ -208,6 +212,12 @@ a:hover {
 }
 @media screen and (min-width:376px) and (max-width:768px)   /* styles pour mobile paysage+Portrait*/
 {
+h1{
+   
+    font-size:1.5rem;
+    width:80%;
+}
+
 img
 {
     width:100%; 
