@@ -1,3 +1,16 @@
+@font-face  /* Police " */
+{
+    font-family:"Roboto Regular";
+    src:url("Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    
+    background-image:url("bgcases.gif");
+    font-family:"Roboto Regular", arial, sans-serif;
+
+}
+
 .grid-container {
 
     display:grid;
@@ -55,13 +68,6 @@ border-style: solid;
 padding:3px;
 background-color: #E1EDF8;
 font-size: 18px;
-
-}
-
-body {
-    
-    background-image:url("bgcases.gif");
-    font-family:"Roboto Regular", arial, sans-serif;
 
 }
 
@@ -214,12 +220,7 @@ img
     height:250px; 
     overflow:hidden;
 }
-}
-@font-face  /* Police " */
-{
-    font-family:"Roboto Regular";
-    src:url("Roboto-Regular.ttf") format("truetype");
-}
+
 .citation
 {
 	background: #DADADA;
@@ -228,4 +229,5 @@ img
 	margin-left:10px;
 	line-height:130%;
 	text-align:center;
+}
 }
