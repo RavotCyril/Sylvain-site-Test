@@ -30,7 +30,11 @@ body {
     color:#FFFF66;
     background:#663300;
   }
+.grid-item2 {
 
+    display:grid;
+
+}
 .grid-item{
 
     display:grid;
