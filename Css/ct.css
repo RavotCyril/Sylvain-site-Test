@@ -5,6 +5,7 @@
     display:flex;
     margin:0px auto;
     background:#FAF0E6;
+    font-size:0.9rem;
 
 }
 
@@ -235,4 +236,92 @@ a:hover {
     text-decoration: underline;
 
 }
+@media screen and (min-width:769px) and (max-width:1088px)
+/* styles pour tablettes Kindle portrait + ipad Portrait - paysage  */
+{
+#Nav-Menu {
 
+    width:90%;
+    height:200px;
+    display:flex;
+    margin:0px auto;
+    background:#FAF0E6;
+    font-size:0.8rem;
+    
+}
+.Nav-Section {
+
+    text-align:center;
+    width:18%;
+}
+}
+@media screen and (min-width:415px) and (max-width:768px)
+/* styles pour mobile paysage+Portrait*/
+{
+
+.bandeau {
+
+    width:100%;
+
+}
+
+#Nav-Menu {
+
+    width:100%;
+    height:200px;
+    display:flex;
+    margin:0px auto;
+    background:#FAF0E6;
+    font-size:0.5rem;
+
+}
+
+.Nav-Section {
+
+    text-align:center;
+    width:18%;
+}
+
+}
+@media screen and (max-width:414px)
+/* styles pour ecran mobile très petit paysage+Portrait*/
+
+{
+Main {
+    width:100%;
+    margin:0px;
+}
+h2{
+    justify-content: center;
+    display: flex;
+}
+.Image-Methodes-Etapes img, .Image-Logo-Chess-Games img{
+    display:block;
+    width:50%;
+    text-align:center;
+}   
+.bandeau {
+
+    width:100%;
+    margin:0px;
+}
+.Nav-Section {
+
+    text-align:center;
+    width:18%;
+}
+#Nav-Menu {
+
+    width:100%;
+    height:200px;
+    display:flex;
+    background:#FAF0E6;
+    font-size:0.4rem;
+    
+}
+.piedpage {
+
+    width:100%;
+
+    }
+}
