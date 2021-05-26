@@ -387,7 +387,7 @@ a:hover {
     padding: 0px;
   }
   .grid-container {
-    width: 58%;
+    width:100%;
   }
   .grid-item1 {
     height: 60px;
@@ -445,7 +445,7 @@ a:hover {
   }
   .grid-container {
     font-variant: super;
-    width: 50px;
+    width:72%;
   }
   .grid-item,.grid-item1,.grid-item2 {
     height: 40px;
