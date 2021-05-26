@@ -3,6 +3,11 @@
     font-family:"Roboto Regular";
     src:url("Roboto-Regular.ttf") format("truetype");
 }
+.Re-Direction-Version-Bureau{
+
+    display:none;
+
+}
 
 body {
     
@@ -398,6 +403,23 @@ h1{
 }
 @media screen and (min-width:415px) and (max-width:768px)   /* styles pour mobile paysage+Portrait*/
 {
+.Re-Direction-Version-Bureau{
+
+    display:inline-block;
+    margin:10px 0px 0px 25px;
+        
+}
+.Re-Direction-Version-Bureau a{
+
+    text-decoration:underline;
+
+}
+.fas.fa-desktop{
+
+    display:inline-block;
+}
+
+    
 main{
 
     width:100%;
@@ -437,7 +459,7 @@ h1{
 }
 .piedpage {
 
-    width:92%;
+    width:100%;
 }
 
 .Photos-championnat-du-monde{
@@ -512,9 +534,10 @@ main{
 
 .piedpage {
 
-    width:94%;
+    width:100%;
 
 }
+
 .Contact-Apropos{
 
     display:flex;
@@ -577,4 +600,5 @@ h3 img{
     margin-top:5px;
     font-size:60%;
 }
+
 }
