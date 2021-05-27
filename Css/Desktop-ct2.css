@@ -1,6 +1,5 @@
 @font-face
 /* Police " */
-
 {
   font-family: "Roboto Regular";
   src: url("Roboto-Regular.ttf") format("truetype");
@@ -370,14 +369,19 @@ a:hover {
     font-size: 1.75rem;
   }
   .bandeau {
-    width: 91.5%;
+    width:95.5%;
   }
+  main {
+    border-width: 0px;
+    background-color: RGB(242, 242, 242);
+    width: 94%;
+    margin: 1px auto;
+    padding: 8px;
+  }
+
   .Td-Mobile-En-Colonne {
     display: flex;
     flex-direction: column;
-  }
-  .piedpage {
-    width: 91.7%;
   }
   .imghaut {
     width: 100%;
@@ -470,257 +474,7 @@ a:hover {
   font-size:17px;
   font-family:"georgia,palatino";
 }
+.piedpage {
+  width:95.5%;
 }
-@media screen and (min-width:415px) and (max-width:768px)
-/* styles pour mobile paysage+Portrait*/
-
-{
-  .Re-Direction-Version-Bureau {
-    display: inline-block;
-    margin: 10px 0px 0px 25px;
-  }
-  .Re-Direction-Version-Bureau a {
-    text-decoration: underline;
-  }
-  .fas.fa-desktop {
-    display: inline-block;
-  }
-  main {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-  .grid-container {
-    width:100%;
-  }
-  .grid-item1 {
-    height: 60px;
-  }
-  h1 {
-    font-size: 1.5rem;
-  }
-  .bandeau {
-    width: 92.5%;
-    
-  }
-  .Td-Mobile-En-Colonne {
-
-    display: flex;
-    flex-direction: column;
-    width: 77%;
-  }
-  .piedpage {
-    width: 100%;
-  }
-  .Photos-championnat-du-monde {
-    height: 190px;
-    overflow: hidden;
-    margin-left: 10px;
-  }
-  .imgchamp, .imgchamp1, .imgchamp12, .imgchamp13, .imgchamp14, .imgchamp15, .imgchamp16, .imgchamp17, .imgchamp29, .imgchamp31 {
-
-    display: flex;
-    justify-content: center;
-
-  }
-  .citation {
-    background: #DADADA;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 10px;
-    line-height: 130%;
-    text-align: center;
-  }
-.Tableau-Page-Entière-Des-47-Championnats{
-
-  width:65%
-
- }
-.Case-Acceder-a-la-partie{
-
-  text-align:right;
-  background-color:#FFFFFF;
-  width:50px;
-  font-size:10px;
-  padding:3px;
-
-}
-  .Table-Tableau {
-
-    font-size:xx-small;
-    border-spacing: 0;
-    padding: 0px;
-    
-  }
-
-.Table-Tableau12{
-
-  font-size:xx-small;
-  width:86%;
-
-}
-.Table-Tableau13{
-
-  font-size:xx-small;
-  width:47%;
-}
-
- .Table-Tableau14{
-
-  font-size:xx-small;
-  width:51%;
-}
- 
- .Table-Tableau15{
-
-  font-size:xx-small;
-  width:113%;
-}
- 
- .Table-Tableau16{
-
-  font-size:xx-small;
-  width:47%;
-}
- 
- .Table-Tableau29{
-
-  font-size:xx-small;
-  width:78%;
-}
- 
- .Table-Tableau31{
-
-  font-size:xx-small;
-  width:112%;
-
-}
-
-.Table-Tableau31-bis{
-
-  font-size:xx-small;
-  width:59%;
-
-}
-  .Score-Final {
-    margin-top: 5px;
-    font-size: 100%;
-  }
-}
-
-@media screen and (max-width:414px)
-/* styles pour ecran mobile très petit paysage+Portrait*/
-
-{
-  main {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
-  .grid-container {
-    font-variant: super;
-    width:72%;
-  }
-  .grid-item,.grid-item1,.grid-item2 {
-    height: 40px;
-    width: 40px;
-    font-variant: super;
-    font-size: 0.6em;
-  }
-  .bandeau {
-    width: 94.5%;
-  }
-  .piedpage {
-    width: 100%;
-  }
-  .Contact-Apropos {
-    display: flex;
-    flex-direction: column;
-  }
-  .Contact {
-    font-size: 16px;
-  }
-  h3 {
-    font-size: 18px;
-  }
-  .Score-Final {
-    margin-top: 5px;
-    font-size: 120%;
-  }
-  .Photos-championnat-du-monde {
-    height: 150px;
-    overflow: hidden;
-  }
-  .imgchamp, .imgchamp1, .imgchamp12, .imgchamp13, .imgchamp14, .imgchamp15, .imgchamp16, .imgchamp17, .imgchamp29, .imgchamp31 {
-    display: flex;
-    justify-content: left;
-  }
-  h3 img {
-    margin: none;
-  }
-  .Table-Tableau {
-    width:10%;
-    border-spacing: 0;
-    padding: 0px;
-    font-size: xx-small;
-    font-variant: diagonal-fractions;
-  }
-  .Table-Tableau12{
-
-    font-size:xx-small;
-    width:10%;
-  
-  }
-  .Table-Tableau13{
-  
-    font-size:xx-small;
-    width:10%;
-  }
-  
-   .Table-Tableau14{
-  
-    font-size:xx-small;
-    width:10%;
-  }
-   
-   .Table-Tableau15{
-  
-    font-size:xx-small;
-    width:15%;
-  }
-   
-   .Table-Tableau16{
-  
-    font-size:xx-small;
-    width:10%;
-  }
-   
-   .Table-Tableau29{
-  
-    font-size:xx-small;
-    width:10%;
-  }
-   
-   .Table-Tableau31{
-  
-    font-size:xx-small;
-    width:10%;
-  
-  }
-  
-  .Table-Tableau31-bis{
-  
-    font-size:xx-small;
-    width:10%;
-  
-  }
-  .Td-Mobile-En-Colonne {
-    display: flex;
-    flex-direction: column;
-    width: 77%;
-  }
-  .Score-Final {
-    margin-top: 5px;
-    font-size: 60%;
-  }
 }

@@ -1,0 +1,12 @@
+table class=intro align=center cellspacing=0 cellpadding=2 border=0
+					tr
+					  td valign=center
+						p align=centerfont size=5strongProjets 2021strongfontp
+						ul
+						  li style=list-style none;a href=httpsyoutube.complaylistlist=PLcy_l1Nkq8Pk3yjcYPPILTST_gGTjGYDb target=_blankspan style=font-size1.7rem; colorred; margin5px; vertical-align sub class=fab fa-youtubespanVidéos emLe conseil de la semaineemali
+						  li style=list-style none;a href=themes-et-conseils.html target=_blankspani style=font-size1.7rem; colorblack; margin7px; vertical-align sub class=fas fa-chess-boardispanListes de thèmes et conseils pour s'entraînerali
+						  li style=list-style none;a href=www.chess-teaching.com-projets-championnats-du-monde.html target=_blankspanimg style=width28px; height28px; margin6.5px; vertical-align middle src=imgPrimary_WCHOF_logo_2013.pngspanL'histoire des championnats du mondeali
+						ul
+					  td
+					tr
+				  table
