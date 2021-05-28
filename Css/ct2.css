@@ -614,13 +614,11 @@ a:hover {
     padding: 0px;
   }
   .grid-container {
-    font-variant: super;
     width:72%;
   }
   .grid-item,.grid-item1,.grid-item2 {
     height: 40px;
     width: 40px;
-    font-variant: super;
     font-size: 0.6em;
   }
   .bandeau {
@@ -652,7 +650,7 @@ a:hover {
     justify-content: left;
   }
   h3 img {
-    margin: none;
+    margin:0px;
   }
   .Table-Tableau {
     width:10%;

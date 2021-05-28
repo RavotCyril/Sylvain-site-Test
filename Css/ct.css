@@ -39,7 +39,7 @@ a{
 nav a:hover{
 
     border-left:2px solid black;
-    background:rgb(71, 70, 70);
+    background:rgb(67, 66, 66, 0.64);
     text-decoration:none;
 
 }
@@ -67,7 +67,7 @@ border-width: 1px;
 border-color: black;
 border-style: solid;
 text-align: left;
-padding: 3;
+padding: 3px;
 background-color: #E1EDF8;
 
 }
@@ -77,7 +77,7 @@ background-color: #E1EDF8;
 border-width: 1px;
 border-color: black;
 border-style: solid;
-padding: 3;
+padding:3px;
 background-color: #f0f8ff;
 
 }
@@ -87,7 +87,7 @@ background-color: #f0f8ff;
 border-width: 1px;
 border-color: black;
 border-style: solid;
-padding: 3;
+padding:3px;
 background-color: #E1EDF8;
 font-size: 18px;
 margin:0px;
@@ -126,7 +126,7 @@ border-color: black;
 
 border-style: solid;
 
-padding: 3;
+padding:3px;
 
 background-color: #FAF0E6;
 
@@ -142,7 +142,7 @@ border-color: black;
 
 border-style: solid;
 
-padding: 3;
+padding:3px;
 
 background-color: #FAF0E6;
 
@@ -166,7 +166,7 @@ border-color: black;
 
 border-style: solid;
 
-padding: 2;
+padding:2px;
 
 background-color: #FAF0E6;
 
@@ -190,7 +190,7 @@ width:90%;
 
 margin:1px auto;
 
-padding: 8;
+padding:8px;
 
 }
 
