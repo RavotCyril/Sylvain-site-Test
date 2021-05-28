@@ -17,7 +17,7 @@
     <meta HTTP-EQUIV='cache-control' CONTENT='no-store'>
     <meta HTTP-EQUIV='Expires' CONTENT='0'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
-    <link rel="stylesheet" href="../Desktop-ct2.css">
+    <link rel="stylesheet" href="Css/Desktop-ct2.css">
     <link rel="stylesheet" href="Css/Normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="icon" type="image/png" href="../img/favicon.png"/>
@@ -32,7 +32,7 @@
         <tr>
           <td align=center valign=top>
             <div align=center>
-              <a href="http://www.chess-teaching.com/" style="text-decoration: none;">
+              <a href="http://www.chess-teaching.com" style="text-decoration: none;">
               <strong><b><font size="6" color="black">Chess Teaching</font></b><br></strong>
               <strong><b><font size="5" color="black">Enseignement du Jeu d’Échecs</font></b></strong>
               </a>

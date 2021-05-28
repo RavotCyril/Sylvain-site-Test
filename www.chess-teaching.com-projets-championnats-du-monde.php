@@ -18,7 +18,7 @@
     <meta HTTP-EQUIV='cache-control' CONTENT='no-store'>
     <meta HTTP-EQUIV='Expires' CONTENT='0'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
-    <link rel="stylesheet" href="Css/ct2.css">
+    <link rel="stylesheet" href="Css/Desktop-ct2.css">
     <link rel="stylesheet" href="Css/Normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
@@ -344,7 +344,7 @@
       <!-- couleur : #663300 marron -->
       <br>
       <h2>LES 47 CHAMPIONNATS DU MONDE</h2>
-      (Remerciements au site <a href="https://www.chessgames.com/" aria-label="Chessgames.com Tableau Compilé grâce au site Chessgame." target="_blank">Chessgames.com</a> dont j'ai compilé les tableaux)<br>
+      (Remerciements au site <a href="https://www.chessgames.com/" aria-label="Chessgames.com Tableau Compilé grâce au site Chessgame" target="_blank">Chessgames.com</a> dont j'ai compilé les tableaux)<br>
       <table class="Tableau-Page-Entière-Des-47-Championnats">
         <tr>
           <td class="Td-Mobile-En-Colonne">
@@ -427,7 +427,7 @@
             </div>
           </td>
           <td class="imgchamp1">
-            <a href="https://fr.wikipedia.org/wiki/Wilhelm_Steinitz" target="_blank">
+            <a href="https://fr.wikipedia.org/wiki/Wilhelm_Steinitz" aria-label="Page wikipedia du joueur Wilhelm_Steinitz" target="_blank">
               <div class="Photos-championnat-du-monde"><img src="img/Steinitz.jpg" alt="Steinitz" height="200" border="0">
             </a>
             </div></div>
@@ -4781,7 +4781,7 @@
           </td>
           <td class="imgchamp">
             <br>
-            <a href="https://fr.wikipedia.org/wiki/Magnus_Carlsen" target="_blank">
+            <a href="https://fr.wikipedia.org/wiki/Magnus_Carlsen" aria-label="Wikipédia de Magnus Carlsen" target="_blank">
               <div class="Photos-championnat-du-monde"><img src="img/Carlsen.jpg" alt="Magnus-Carlsen" height="200" border="0">
             </a>
             </div>
