@@ -1,0 +1,43 @@
+body {
+    background-color: #111;
+    color: #EEE;
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  .series-frame {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #EEE;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .series-frame h2 {
+    margin-right: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    width: 100%;
+
+  }
+  .grid-item {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    height: 30px;
+    color: #FFFF66;
+    background: #663300;
+  }
+  
+  .grid-item {
+    display: grid;
+    text-align: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }

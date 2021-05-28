@@ -1,2 +1,3 @@
 User-Agent: *
 Disallow: /erreur400.php
+Sitemap: http://www.chess-teaching.com/sitemap(1).xml

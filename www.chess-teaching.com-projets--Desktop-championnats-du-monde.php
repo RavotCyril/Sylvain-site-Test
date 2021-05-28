@@ -13,14 +13,14 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name=description content="Enseignement du Jeu d'Echecs.Championnat du monde d'échecs,World chess championship,Histoire du jeux d'échecs,world chess,Bobby Fischer,José Raúl Capablanca,Anatoli Karpov,Kasparov,Carlsen,Anand,échecs,enseignement,pédagogie,entrainement,chess,teaching,training,coaching,young,ratings,français,francophones,chach,shakhmaty.">
+    <meta name=description content="Enseignement du Jeu d'Echecs.Championnat du monde d'échecs,World chess championship,Histoire du jeux d'échecs,world chess,Bobby Fischer,José Raúl Capablanca,Anatoli Karpov,Kasparov,Carlsen,Anand,Kramnik,Alekhine,Steinitz,Petrosian,Spassky,Euwe,Lasker,échecs,enseignement,apprendre,pédagogie,entrainement,chess,teaching,training,coaching,young,français,francophones,schach,shakhmaty.">
     <meta HTTP-EQUIV='cache-control' CONTENT='no-store'>
     <meta HTTP-EQUIV='Expires' CONTENT='0'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
-    <link rel="stylesheet" href="Css/Desktop-ct2.css">
+    <link rel="stylesheet" href="../Desktop-ct2.css">
     <link rel="stylesheet" href="Css/Normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="icon" type="image/png" href="../img/favicon.png"/>
   </head>
   <body topmargin="0" leftmargin="0" rightmargin="0">
     <!-- Google Tag Manager (noscript) -->
@@ -32,9 +32,9 @@
         <tr>
           <td align=center valign=top>
             <div align=center>
-              <a href="http://www.chess-teaching.com/">
-              <strong><b><font size="6" >Chess Teaching</font></b><br></strong>
-              <strong><b><font size="5" >Enseignement du Jeu d’Échecs</font></b></strong>
+              <a href="http://www.chess-teaching.com/" style="text-decoration: none;">
+              <strong><b><font size="6" color="black">Chess Teaching</font></b><br></strong>
+              <strong><b><font size="5" color="black">Enseignement du Jeu d’Échecs</font></b></strong>
               </a>
             </div>
           </td>
@@ -2248,8 +2248,9 @@
             <div class="Score-Final">
               <font><B>SCORE FINAL :&nbsp; Botvinnik 3 - 6 Smyslov</B> (13 nulles)</font><br>
               <a href="https://www.chessgames.com/perl/chess.pl?tid=54198" target="_blank">La page Chessgames</a><br>
-              <a href="https://lichess.org/study/57SImQP2" target="_blank">Study Lichess</a>
-            </div>
+              <a href="https://lichess.org/study/57SImQP2" target="_blank">Study Lichess</a><br>
+			  <a href="docs/Smyslov_quiz.pdf" target="_blank">Quiz Smyslov</a> (PDF)
+			</div>
           </td>
           <td class="imgchamp">
             <br>
@@ -3076,7 +3077,7 @@
                 <td width=14 align=CENTER bgcolor=#FFFFFF><font size=3>1</font></td>
               </tr>
               <tr>
-                <td class="Case-Marron-Joueur-A-Gauche"><a href="https://www.chessgames.com/perl/chessplayer?pid=15866" target="_blank"><font color=#FFFF66>Korchnoï</font></a></font></td>
+                <td class="Case-Marron-Joueur-A-Gauche"><a href="https://www.chessgames.com/perl/chessplayer?pid=15866" target="_blank"><font color=#FFFF66>Korchnoi</font></a></font></td>
                 <td width=14 align=CENTER bgcolor=#FFFFFF><font size=3>1</font></td>
                 <td width=14 align=CENTER bgcolor=#DDDDDD><font size=3>&#189;</font></td>
                 <td width=14 align=CENTER bgcolor=#FFFFFF><font size=3>&#189;</font></td>
@@ -3092,7 +3093,7 @@
               </tr>
             </table>
             <div class="Score-Final">
-              <font><B>SCORE FINAL :&nbsp; Karpov 6 - 5 Korchnoï</B> (21 nulles)</font><br>
+              <font><B>SCORE FINAL :&nbsp; Karpov 6 - 5 Kortchnoï</B> (21 nulles)</font><br>
               <a href="https://www.chessgames.com/perl/chess.pl?tid=54641" target="_blank">La page Chessgames</a><br>
               <a href="https://lichess.org/study/dB6nyQdk" target="_blank">Study Lichess</a>
             </div>
@@ -3103,7 +3104,7 @@
               <div class="Photos-championnat-du-monde"><img src="img/Karpov-jeune.jpg" alt="Karpov-jeune" height="200" border="0">
             </a>
             </div>
-            <a href="https://fr.wikipedia.org/wiki/Viktor_Kotchnoi" target="_blank">
+            <a href="https://fr.wikipedia.org/wiki/Viktor_Kortchnoi" target="_blank">
               <div class="Photos-championnat-du-monde"><img src="img/Kortchnoi.jpg" alt="Kortchnoi" height="200" border="0">
             </a>
             </div>

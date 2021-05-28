@@ -18,7 +18,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  width: 100%;
+  width:100%;
 }
 
 .grid-item1 {
@@ -31,10 +31,6 @@ body {
   height: 30px;
   color: #FFFF66;
   background: #663300;
-}
-
-.grid-item{
-  display: grid;
 }
 
 .grid-item {
