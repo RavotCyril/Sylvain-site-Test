@@ -1,0 +1,291 @@
+@font-face
+/* Police " */
+
+{
+  font-family: "Roboto Regular";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+body {
+
+    background-image: url('bgcases.gif');
+    font-family:"Roboto Regular";
+    }
+
+main{
+
+    width:90%;
+    margin:0px auto;
+    padding:3px;
+    background-color: RGB(242,242,242);
+}
+.beige {
+
+    border-width: 1px;
+    
+    border-color: black;
+    
+    border-style: solid;
+    
+    padding:3px;
+    
+    background-color: #FAF0E6;
+    
+    }
+    
+header{
+    
+    width: 90%;
+    
+    border-width: 0px;
+    
+    border-color: black;
+    
+    border-style: solid;
+    
+    padding:3px;
+    
+    background-color: #FAF0E6;
+    
+    border-bottom-width: 2px;
+    
+    border-color: black;
+    
+    border-style: solid;
+    
+    margin: 0px auto;
+    
+    }
+    
+a{
+    text-decoration: none;
+    color:rgb(0, 165, 219);
+}
+.colg {position: absolute; top: 210px; left: 8px; background-color: #FAF0E6; }
+
+.cold {position: absolute; top: 210px; left: 450px; visibility: hidden; background-color: #FAF0E6; }
+
+.left {font-size: 14px; }
+
+.liens {font-size: 15px; }
+
+.hl {color: orange; }
+
+.titre {font-size:x-large;}
+
+.disab { font-weight: bold; background-color: #F5DEB3; }
+
+.bold { font-weight: bold; }
+
+.w { background-color: white; }
+
+.g { background-color: RGB(230,230,230); }
+
+.b { background-color: RGB(240,248,255); }
+
+h1, h2, h3{
+    text-align:center;
+}
+.Colone-Gauche-Droite{
+
+    Display:flex;
+}
+.Colone-Gauche{
+
+    font-size:0.9rem;
+    width:60%;
+}
+.Colone-Droite{
+
+    width:40%;
+}
+.Organisation-Photos{
+
+    display:flex;
+}
+.fas.fa-star.active /* Couleur bleu ciel pour étoiles pleines */
+{
+    color: #0065FC;
+}
+.fas.fa-star /* Couleur grise pour les étoiles vides */
+{
+    color:grey;
+}
+
+
+.Div-Livre{
+
+    height:auto;
+    width:150px;
+    margin:10px;
+}
+.Div-Livre img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    
+    width : 90%;
+    
+    border-width: 0px;
+    
+    border-color: black;
+    
+    border-style: solid;
+    
+    margin:0px auto;
+
+    padding:3px;
+    
+    background-color: #FAF0E6;
+    
+    border-top-width: 2px;
+    
+    border-color: black;
+    
+    border-style: solid;
+}
+.Contact{
+
+    text-align:left;
+    Font-size:16px;
+}
+.A-Propos{
+    float:right;
+    text-align:right;
+    font-size:16px;
+}
+.A-Propos a:hover{
+
+    color: #00759B;
+    text-decoration:underline;
+}
+
+@media screen and (min-width:640px) and (max-width:1088px)
+/* styles pour tablettes Kindle portrait + ipad Portrait - paysage  */
+{
+    h1{
+    font-size:1.3rem;
+    }
+    .Colone-Gauche-Droite{
+
+        Display:flex;
+        flex-direction:column;
+    }
+    .Colone-Gauche{
+
+        font-size:0.9rem;
+        width:100%;
+    }
+    .Colone-Droite{
+    
+        width:100%;
+    }
+    .Div-Livre{
+
+        height:auto;
+        width:150px;
+        margin:10px;
+    }
+    .fas.fa-star{
+
+        font-size:1.2rem;
+    }
+
+}
+@media screen and (min-width:415px) and (max-width:639px)
+{
+    h1{
+        font-size:0.90rem;
+    }
+    header{
+        width:100%;
+    }
+    main{
+
+        width:100%;
+        padding:3px;
+    }
+    .Colone-Gauche-Droite{
+
+        Display:flex;
+        flex-direction:column;
+    }
+    .Colone-Gauche{
+
+        font-size:0.55rem;
+        width:100%;
+    }
+    .Colone-Droite{
+    
+        width:100%;
+    }
+    .Div-Livre{
+
+        height:auto;
+        width:150px;
+        margin:10px;
+    }
+    .fas.fa-star{
+
+        font-size:1rem;
+    }
+    footer{
+        width:100%;
+    }
+}
+@media screen and (max-width:414px)
+/* styles pour ecran mobile très petit paysage + Portrait*/
+{
+    h1{
+        font-size:0.8rem;
+    }
+    header{
+       width:100%;
+       margin:0px;
+       padding:0px;
+    }
+    main{
+
+        width:98%;
+        margin:0px;
+        padding:1%;
+    }
+    .Colone-Gauche-Droite{
+
+        Display:flex;
+        flex-direction:column;
+    }
+    .Colone-Gauche{
+
+        font-size:0.55rem;
+        width:100%;
+    }
+    .Colone-Gauche p{
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .Colone-Droite{
+    
+        width:100%;
+    }
+    .Div-Livre{
+
+        height:auto;
+        width:150px;
+        margin:10px;
+    }
+    .fas.fa-star{
+
+        font-size:0.8rem;
+
+    }
+    footer{
+        width:100%;
+    }
+}
