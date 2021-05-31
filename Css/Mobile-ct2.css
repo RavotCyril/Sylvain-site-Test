@@ -276,11 +276,11 @@ main {
   visibility: hidden;
   background-color: #FAF0E6;
 }
-.Tableau-Liste-Championnats-Du-Monde{
+.Tableau-Listes-Championnats-Du-Monde{
 
   display:flex;
 }
-.Tableau-Liste-Championnat-Du-Monde1, .Tableau-Liste-Championnat-Du-Monde1, .Championnat-Fide-1993-2007{
+.Tableau-Liste-Championnat-Du-Monde, .Tableau-Liste-Championnat-Du-Monde1, .Championnat-Fide-1993-2007{
 
   padding:15px;
   font-size:1.2rem;

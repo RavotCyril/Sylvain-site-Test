@@ -260,8 +260,8 @@
       <br>
       <br>
       <h2>LISTE DES CHAMPIONNATS DU MONDE</h2>
-      <section class="Tableau-Liste-Championnats-Du-Monde">
-          <div class="Tableau-Liste-Championnat-Du-Monde1">
+      <section class="Tableau-Listes-Championnats-Du-Monde">
+          <div class="Tableau-Liste-Championnat-Du-Monde">
             1) <a href="#1886">Steinitz - Zukertort 1886</a><br>
             2) Steinitz - Chigorin 1889<br>
             3) Steinitz - Gunsberg 1890-91<br>
@@ -288,8 +288,8 @@
             23) Tal - Botvinnik 1961<br>
             24) Botvinnik - Petrossian 1963<br>
             25) Petrossian - Spassky 1966<br>
-        </div>
-        <div class="Tableau-Liste-Championnat-Du-Monde1">
+          </div>
+          <div class="Tableau-Liste-Championnat-Du-Monde1">
             26) Petrossian - Spassky 1969<br>
             27) Spassky - Fischer 1972<br>
             28) Fischer - Karpov 1975<br>
@@ -315,7 +315,7 @@
             46) Carlsen - Karjakin 2016<br>
             47) Carlsen - Caruana 2018<br>
             48) Carlsen - Nepomniachtchi 2021</a>
-        </div>
+          </div>
         </section>
         <div class="Championnat-Fide-1993-2007">
             <strong>Championnats FIDE 1993-2007</strong> :<br>
