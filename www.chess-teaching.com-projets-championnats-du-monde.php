@@ -4808,9 +4808,9 @@
     </main>
     <footer>
       <table cellpadding=2 width="100%" cellspacing=0 class="piedpage" align="center">
-        <tr class="Contact-Apropos">
-          <td class="Contact">
-            <em>Contact</em>: <b>contact@chess-teaching.com</b>
+        <tr>
+          <td>
+            <u><em>Contact</em></u> : <b>contact@chess-teaching.com</b>
           </td>
           <td class="Apropos">
             <a href="http://www.chess-teaching.com/a_propos.php">À propos</a>

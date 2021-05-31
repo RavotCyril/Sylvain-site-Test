@@ -505,9 +505,7 @@ a:hover {
     flex-direction: column;
     width: 77%;
   }
-  .piedpage {
-    width: 100%;
-  }
+  
   .Photos-championnat-du-monde {
     height: 190px;
     overflow: hidden;
@@ -519,14 +517,7 @@ a:hover {
     justify-content: center;
 
   }
-  .citation {
-    background: #DADADA;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 10px;
-    line-height: 130%;
-    text-align: center;
-  }
+ 
 .Tableau-Page-Entière-Des-47-Championnats{
 
   width:65%
@@ -548,7 +539,7 @@ a:hover {
     padding: 0px;
     
   }
-
+  
 .Table-Tableau12{
 
   font-size:xx-small;
@@ -601,6 +592,9 @@ a:hover {
   .Score-Final {
     margin-top: 5px;
     font-size: 100%;
+  }
+  .piedpage {
+    width: 100%;
   }
 }
 
