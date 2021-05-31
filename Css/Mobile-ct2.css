@@ -229,6 +229,7 @@ h3 {
 }
 
 .Photos-championnat-du-monde img {
+    
   height: 100%;
   object-fit: cover;
   object-position: center;
@@ -285,10 +286,6 @@ main {
   font-size:1.2rem;
 }
 
-.bob{
-  display:flex;
-
-}
 .left {
   font-size: 14px;
 }
@@ -490,4 +487,67 @@ a:hover {
 .piedpage {
   width:95.5%;
 }
+}
+@media screen and (min-width:414px) and (max-width:599px)
+/* styles pour téléphones Portrait moderne + paysage  */
+{
+    .bandeau {
+        width:100%;
+        margin:0px;
+        padding:0px;
+    }
+    main {
+        width:100%;
+        margin:0px;
+        padding:1px 0px;
+      }
+      .Td-Mobile-En-Colonne {
+        display: flex;
+        flex-direction: column;
+      }
+    .Photos-championnat-du-monde {
+    
+        height:auto;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    .Photos-championnat-du-monde {
+
+        height:250px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+    .piedpage {
+        width:100%;
+        margin: 0px;
+    }
+}
+@media screen and (max-width:413px)
+/* styles pour téléphone très petit ancienne génération. ( Portrait )  */
+{
+.bandeau {
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+main {
+    width:100%;
+    margin:0px;
+    padding:1px 0px;
+  }
+  .Td-Mobile-En-Colonne {
+    display: flex;
+    flex-direction: column;
+  }
+.Photos-championnat-du-monde {
+
+    height:50px;
+    overflow: hidden;
+    margin-left:10px;
+    }
+.piedpage {
+    width:100%;
+    margin: 0px;
+}
+      
 }

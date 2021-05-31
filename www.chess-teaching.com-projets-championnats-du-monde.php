@@ -18,7 +18,7 @@
     <meta HTTP-EQUIV='cache-control' CONTENT='no-store'>
     <meta HTTP-EQUIV='Expires' CONTENT='0'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
-    <link rel="stylesheet" href="Css/Desktop-ct2.css">
+    <link rel="stylesheet" href="Css/Mobile-ct2.css">
     <link rel="stylesheet" href="Css/Normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
@@ -260,9 +260,8 @@
       <br>
       <br>
       <h2>LISTE DES CHAMPIONNATS DU MONDE</h2>
-      <table cellpadding="15">
-        <tr>
-          <td style="font-size: 120%;">
+      <section class="Tableau-Liste-Championnats-Du-Monde">
+          <div class="Tableau-Liste-Championnat-Du-Monde1">
             1) <a href="#1886">Steinitz - Zukertort 1886</a><br>
             2) Steinitz - Chigorin 1889<br>
             3) Steinitz - Gunsberg 1890-91<br>
@@ -289,8 +288,8 @@
             23) Tal - Botvinnik 1961<br>
             24) Botvinnik - Petrossian 1963<br>
             25) Petrossian - Spassky 1966<br>
-          </td>
-          <td style="font-size: 120%;" valign="top">
+        </div>
+        <div class="Tableau-Liste-Championnat-Du-Monde1">
             26) Petrossian - Spassky 1969<br>
             27) Spassky - Fischer 1972<br>
             28) Fischer - Karpov 1975<br>
@@ -316,10 +315,9 @@
             46) Carlsen - Karjakin 2016<br>
             47) Carlsen - Caruana 2018<br>
             48) Carlsen - Nepomniachtchi 2021</a>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3" style="font-size: 120%;">
+        </div>
+        </section>
+        <div class="Championnat-Fide-1993-2007">
             <strong>Championnats FIDE 1993-2007</strong> :<br>
             Karpov - Timman (1993)<br>
             Karpov - Kamsky (1996)<br>
@@ -330,9 +328,7 @@
             Coupe du monde FIDE (2004) : Kasimdzhanov<br>
             Championnat du monde FIDE tournoi (2005) : Topalov<br>
             Championnat du monde FIDE tournoi (2007) : Anand<br>
-          </td>
-        </tr>
-      </table>
+        </div>
       <br>
       <b>PARENTHÈSE HISTORIQUE</b><br>
       Je fais partie de ceux qui considèrent que Kasparov était champion du monde jusqu'à l'an 2000 malgré sa scission, simplement parce que depuis 1886 il faut battre en match le champion du monde en titre pour le devenir. Je ne vois que deux exceptions :<br>
