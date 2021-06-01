@@ -26,14 +26,6 @@ body {
       margin:0px 0px 5px 0px;
       color:blue;
   }
-  .citation {
-    background: #DADADA;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 10px;
-    line-height: 130%;
-    text-align: center;
-  }
 
 .fs {
     margin-bottom: 0px;
@@ -98,10 +90,53 @@ body {
     border-style: solid;
     margin:0px auto;
   }
+  Section{
+    margin:0px auto;
+  }
   .Organisation-des-3-Photos-Introduction {
 
     display: flex;
-    flex-direction: column;
+    width:80%;
+    margin:0px auto;
+  }
+  .Figure-Intro{
+    margin:16px;
+  }
+  .Figure-Citation{
+
+    width:30%;
+    background: #DADADA;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    line-height: 130%;
+  }
+  .Figure-Citation img{
+
+    height:auto;
+    width:60%;
+    margin:10px 20%;
+    
+
+  }
+  .Figure-Citation figcaption{
+
+    width:100%;
+    text-align: center;
+    background: #DADADA;
+  }
+  .Introduction-Citation{
+
+    text-align:center;
+    display:block;
+    font-size:16px;
+    width:30%; 
+    margin:0px auto;
+    background: #DADADA;
+    padding: 10px; 
+    border-radius: 10px;
+    line-height:150%;
+    
   }
    .imghaut{
     width:100%;
@@ -109,35 +144,18 @@ body {
     object-fit: cover;
     object-position: center;
   }
-  figure{
-    margin:25px 0px;
-  }
-  
-  .Introduction-Photo-Fischer-simul{
-    height:auto;
-    width:88%;
+
+  .Introduction-Photo-Spassky-Tal, .Introduction-Photo-Fischer-simul, .Introduction-Photo-Caruana-Carlsen {
+
+    height:250px;
+    width:100%;
     overflow: hidden;
     margin:0px auto;
-  }
-  .Introduction-Photo-Caruana-Carlsen {
-
-    height:auto;
-    width:84%;
-    overflow: hidden;
-    margin:0px auto;
-
-  }
-
-  .Introduction-Photo-Spassky-Tal{
-    height:auto;
-    width:410px;
-    overflow: hidden;
-    margin:0px auto;
-
   }
 
   figcaption{
 
+    width:100%;
     text-align:center;
     font-size: 19.2px;
     margin-top:5px;
@@ -164,26 +182,18 @@ body {
 @media screen and (min-width:1089px) and (max-width:1280px)
   /* styles pour tablette Kindle paysage*/
 {
-    .Organisation-des-3-Photos-Introduction {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-      }
+
       .Introduction-Photo-Fischer-simul{
-        height:auto;
-        width:88%;
+
         overflow: hidden;
       }
     .Introduction-Photo-Caruana-Carlsen {
 
-        height:auto;
-        width:84%;
         overflow: hidden;
       }
 
       .Introduction-Photo-Spassky-Tal{
-        height:auto;
-        width:410px;
+
         overflow: hidden;
       }
 }
@@ -193,28 +203,18 @@ body {
     h1{
         font-size:1.2rem;
       }
-      .Organisation-des-3-Photos-Introduction {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-      }
+
       .Introduction-Photo-Fischer-simul{
 
-        width:88%;
-        height:auto;
         overflow: hidden;
       }
       .Introduction-Photo-Caruana-Carlsen {
 
-        width:84%;
-        height:auto;
         overflow: hidden;
       }
 
       .Introduction-Photo-Spassky-Tal{
 
-        width:410px;
-        height:auto;
         overflow: hidden;
       }
 }
@@ -233,11 +233,6 @@ body {
       }
     h1{
         font-size:13px;
-      }
-    .Organisation-des-3-Photos-Introduction {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
       }
     .Introduction-Photo-Caruana-Carlsen {
 
