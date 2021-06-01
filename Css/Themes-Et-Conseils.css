@@ -116,8 +116,15 @@ body {
     height:auto;
     width:60%;
     margin:10px 20%;
-    
+  }
+  .Citation-Texte{
 
+    text-align:center;
+    
+  }
+  .Citation-Texte em{
+
+    color:#434343;
   }
   .Figure-Citation figcaption{
 
