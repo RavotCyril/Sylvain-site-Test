@@ -18,7 +18,7 @@
     <meta HTTP-EQUIV='cache-control' CONTENT='no-store'>
     <meta HTTP-EQUIV='Expires' CONTENT='0'>
     <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>
-    <link rel="stylesheet" href="Css/Mobile-ct2.css">
+    <link rel="stylesheet" href="Css/Mobile-ct2.css>
     <link rel="stylesheet" href="Css/Normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="icon" type="image/png" href="img/favicon.png"/>
