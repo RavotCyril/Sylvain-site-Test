@@ -19,7 +19,8 @@ body {
     padding:8px;
   }
   h1{
-    font-size:2rem;
+    text-align:center;
+    font-size:1.7rem;
   }
   h2{
       font-size:22px;
@@ -79,6 +80,7 @@ body {
     background-color: #FAF0E6;
   }
 .bandeau {
+
     width:90%;
     border-width:0px;
     border-color: black;
@@ -103,27 +105,58 @@ body {
   .Figure-Intro{
     margin:16px;
   }
-  .Figure-Intro-Citation{
+  .Figure-Intro-Citation{ /*------- Citation Intro Capablanca ( figcaption )----*/
 
+    display:flex;
+    flex-direction:row-reverse;
     margin:0px;
   }
-  .Citation-Figure-Intro{ 
+  
+  .Citation-Intro{ 
 
     width:350px;
-    display:flex; 
-    flex-direction: row-reverse;
     text-align: center;
     margin:0px;
     background: #DADADA;
     border-radius: 10px;
-    margin:0px auto;
+    margin:30px auto 0px;
 
   }
-  .Intro-Citation{         /*------ Introduction Texte - Citation  ( figcaption )----*/
-    text-align:center;
-    background: #DADADA;
-    margin-top:10px;
+  .Citation-Intro img{ 
+
+    height:auto;
+    width:auto;
+    margin:0px;
+
   }
+  .Citation-Intro .Capablanca{
+
+  display: flex;
+  flex-direction: row-reverse;
+  width: 414px;
+  background: #DADADA;
+  border-radius: 10px;
+  text-align: center;
+  margin:0px;
+  width:350px
+
+  }
+  .Citation-Intro .Capablanca  figcaption{     /*------- Intro - Citation Capablanca ( figcaption )----*/
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:147px;
+  }
+
+  .Intro-Legende-Des-3Photos{       /*-------Figcaption ( légende ) de  l'Introduction des 3 photos Spasky, Fischer, Carlsen ----*/
+    
+    text-align:center;
+    margin:0px;
+    font-style: italic;
+    font-size:0.9rem;
+    height:20px;
+
+  }
+
   .Introduction-Photo-Spassky-Tal, .Introduction-Photo-Fischer-simul, .Introduction-Photo-Caruana-Carlsen {
 
     height:250px;
@@ -141,33 +174,83 @@ body {
   .Citation-Bloc{
 
     background: #DADADA; 
-    width:33%; 
-    display:flex; 
-    flex-direction: row-reverse;
+    width:414px; 
     align-items: center;
     margin:10px 0px 0px 0px;
   }
-  .Figure-Citation{
+  .Figure-Citation img{
 
-    width:250px;
+    height:auto;
+    width:auto;
+    margin:0px;
+  }
+
+  .Figure-Citation, .Figure-Citation-Tal-Alekhine, .Figure-Citation-Paul-Keres, .Figure-Citation-Alekhine-Lajos-Portish, .Figure-Citation-Tartakover, .Figure-Citation-David-Bronstein, .Figure-Citation-Lasker, .Capablanca{
+/*-------Figure de toutes les citations des joueurs de la page  ----*/
+
+    display:flex; 
+    flex-direction:row-reverse;
+    width:414px;
     background: #DADADA;
     border-radius: 10px;
     text-align: center;
     margin:0px;
 
   }
-  .Figure-Citation img{
 
-    height:auto;
-    width:200px;
-    margin:0px;
+  .Capablanca  figcaption{     /*-------Main Citation Capablanca ( figcaption )----*/
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:200px;
   }
-  figcaption{
-
-    text-align:center;
+  .Figure-Citation-Tal-Alekhine figcaption{ /*------- Citation Tal + Alekhine Même taille de photo pour centrer le texte ( figcaption )----*/
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:136px;
   }
- 
+  .Figure-Citation-Paul-Keres figcaption{ /*------- Paul keres ( figcaption )----*/
 
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:250px;
+
+  }
+  .Figure-Citation-Alekhine-Lajos-Portish figcaption{  /*------- Alekhine + Portish ( même taille d'image )( figcaption )----*/
+
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:75px;
+
+  }
+  .Figure-Citation-Tartakover figcaption{  /*-------Tartakover ( figcaption )----*/
+
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:107px;
+  }
+  .Figure-Citation-David-Bronstein figcaption{ /*------- David Bronstein ( figcaption )----*/
+
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:145px;
+  }
+  .Figure-Citation-Lasker figcaption{ /*------- Lasker ( figcaption )----*/
+
+    font-size:0.9rem;
+    margin:auto 0px;
+    height:90px;
+  }
+  .Figure-Citation  figcaption{
+
+  font-size:0.9rem;
+  margin:auto 0px;
+  height:235px;
+}
+  .Tableau-Coup-De-Coeur{
+
+    width:98.5%; 
+    
+    }
     footer {
     width:90%;
     margin:1px auto;
@@ -184,10 +267,19 @@ body {
     float: right;
     font-size: 16px;
   }
+  .Tipee{
+    display:flex;
+    align-items: center;
+    height:67px;
+    margin:0px 0px 10px 0px;
+  }
 @media screen and (min-width:1089px) and (max-width:1280px)
   /* styles pour tablette Kindle paysage*/
 {
-
+  h1{
+    text-align:center;
+    font-size:1.2rem;
+  }
       .Introduction-Photo-Fischer-simul{
 
         overflow: hidden;
@@ -201,27 +293,26 @@ body {
 
         overflow: hidden;
       }
+      .Tipee{
+        display:flex;
+      }
 }
 @media screen and (min-width:640px) and (max-width:1088px)
 /* styles pour tablettes Kindle portrait + ipad Portrait - paysage  */
 {
-    h1{
-        font-size:1.2rem;
-      }
+  h1{
+    text-align:center;
+    font-size:1.2rem;
+  }
+  .Figure-Citation img{
 
-      .Introduction-Photo-Fischer-simul{
-
-        overflow: hidden;
-      }
-      .Introduction-Photo-Caruana-Carlsen {
-
-        overflow: hidden;
-      }
-
-      .Introduction-Photo-Spassky-Tal{
-
-        overflow: hidden;
-      }
+    height:auto;
+    width:auto;
+    margin:0px;
+  }
+  .Tipee{
+    display:flex;
+  }
 }
 @media screen and (min-width:415px) and (max-width:639px)
 /* styles pour mobile paysage+Portrait*/
@@ -237,7 +328,13 @@ body {
         padding:1px 2%;
       }
     h1{
-        font-size:13px;
+      text-align: center;
+      font-size:0.85rem;
+      }
+      .Organisation-des-3-Photos-Introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
     .Introduction-Photo-Caruana-Carlsen {
 
@@ -253,16 +350,27 @@ body {
       }
       .Introduction-Photo-Spassky-Tal{
           
-        width:410px;
+        width:100%;
         height:auto;
         overflow: hidden;
       }
-     
+      
+      .Figure-Citation{
 
+        width:100%;
+        background: #DADADA;
+        border-radius: 10px;
+        text-align: center;
+        margin:0px;
+    
+      }
       footer {
         width:96%;
         margin:0px;
         padding:8px 2%;
+      }
+      .Tipee{
+        display:flex;
       }
 }
 @media screen and (max-width:414px) 
@@ -279,8 +387,27 @@ body {
         padding:2%;
       }
     h1{
-        font-size:1rem;
+        font-size:0.7rem;
       }
+      h2{
+
+        font-size:1rem;
+   
+       }
+      .Citation-Intro{ 
+
+        width:100%;
+        display:flex; 
+        flex-direction:column;
+
+      }
+
+    .Tableau-Coup-De-Coeur{
+
+    font-size:small;
+    width:100%; 
+
+    }
     .Organisation-des-3-Photos-Introduction {
         flex-wrap: wrap;
         display: flex;
@@ -305,11 +432,96 @@ body {
         height:auto;
         overflow: hidden;
       }
-     
+      .Citation-Bloc{
 
+        background: #DADADA; 
+        width:100%; 
+        display:flex; 
+        flex-direction:column;
+        align-items: center;
+        margin:10px 0px 0px 0px;
+      }
+      .Citation-Intro .Capablanca{
+        display: flex;
+        flex-direction:column;
+        width:100%;
+        margin:0px 0px;
+      }
+      .Citation-Intro .Capablanca figcaption{
+
+        margin:10px auto;
+        height:auto;
+      }
+      .Figure-Citation, .Figure-Citation, .Figure-Citation-Tal-Alekhine, .Figure-Citation-Paul-Keres, .Figure-Citation-Alekhine-Lajos-Portish, .Figure-Citation-Tartakover, .Figure-Citation-David-Bronstein, .Figure-Citation-Lasker, .Capablanca{
+
+        display:flex;
+        flex-direction:column;
+        width:auto;
+        height:auto;
+        margin:0px auto;
+        overflow: hidden;
+    
+      }
+      .Figure-Citation img, .Figure-Citation img, .Figure-Citation-Tal-Alekhine img, .Figure-Citation-Paul-Keres img, .Figure-Citation-Alekhine-Lajos-Portish img, .Figure-Citation-Tartakover img, .Figure-Citation-David-Bronstein img, .Figure-Citation-Lasker img, .Capablanca img{
+      
+        height:auto;
+        overflow: hidden;
+        margin:0px auto;
+      }
+      .Figure-Citation figcaption, .Figure-Citation figcaption, .Figure-Citation-Tal-Alekhine figcaption, .Figure-Citation-Paul-Keres figcaption, .Figure-Citation-Alekhine-Lajos-Portish figcaption, .Figure-Citation-Tartakover figcaption, .Figure-Citation-David-Bronstein figcaption, .Figure-Citation-Lasker figcaption, .Capablanca figcaption{
+      
+        margin:10px 0px;
+        height:auto;
+      }
+      .Figure-Citation img{
+      width:280px;
+
+    }
+      .Figure-Citation-Tal-Alekhine img{
+      width:207px;
+
+    }
+      .Figure-Citation-Paul-Keres img{
+      width:260px;
+
+
+    }
+      .Figure-Citation-Alekhine-Lajos-Portish img{
+      width:220px;
+
+    }
+      .Figure-Citation-Tartakover img{
+      width:204px;
+
+    }
+      .Figure-Citation-David-Bronstein img{
+      width:205px;
+
+    }
+      .Figure-Citation-Lasker img{
+      width:205px;
+
+    }
+      .Capablanca img{
+
+        width:230px;
+
+      }
       footer {
+
         width:96%;
         margin:0px;
         padding:2%;
+      }
+
+      .Tipee{
+
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        height:auto;
+      }
+      .Tipee img{
+        margin:0px 0px 10px 0px;
       }
 }
