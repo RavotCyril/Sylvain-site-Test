@@ -1,0 +1,91 @@
+@font-face
+/* Police " */
+
+{
+  font-family: "Roboto Regular";
+  src: url("Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+    background-image: url("bgcases.gif");
+    font-family: "Roboto Regular", arial, sans-serif;
+  }
+  header {
+
+    width:90%;
+    margin:0px auto;
+    background-color: #FAF0E6;
+    text-align:center;
+  }
+  .beige {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 3px;
+    background-color: #FAF0E6;
+  }
+  .Title{
+    font-size:2rem;
+    box-shadow:6px 5px 9px;
+  }
+  main {
+
+    width:90%;
+    margin:0px auto;
+    background-color: RGB(242, 242, 242);
+  }
+  h1{
+      font-size:2rem;
+      text-align: center;
+      color:rgb(11, 62, 109);
+  }
+  .Liste-Championnes-du-monde{
+    text-align:left;
+  }
+  a:link {
+    color: #00759B;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #00759B;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #00A5DB;
+  }
+  
+    footer {
+    width:90%;
+    margin:0px auto;
+    background-color: #FAF0E6;
+  }
+  .Apropos {
+    float: right;
+    font-size: 16px;
+  }
+  .Tipee{
+    display:flex;
+    align-items: center;
+    height:67px;
+    margin:0px 0px 10px 0px;
+  }
+@media screen and (min-width:1089px) and (max-width:1280px)
+  /* styles pour tablette Kindle paysage*/
+{
+ 
+}
+@media screen and (min-width:640px) and (max-width:1088px)
+/* styles pour tablettes Kindle portrait + ipad Portrait - paysage  */
+{
+
+@media screen and (min-width:415px) and (max-width:639px)
+/* styles pour mobile paysage+Portrait*/
+{
+ 
+@media screen and (max-width:414px) 
+/* styles pour mobile ancienne génération paysage+Portrait*/
+{
+ 
+}

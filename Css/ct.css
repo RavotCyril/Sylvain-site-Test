@@ -134,49 +134,36 @@ background-color: #FAF0E6;
 
 .bandeau {
 
-width: 90%;
-
-border-width: 0px;
-
-border-color: black;
-
-border-style: solid;
-
-padding:3px;
-
-background-color: #FAF0E6;
-
-border-bottom-width: 2px;
-
-border-color: black;
-
-border-style: solid;
-
-margin: 0px auto;
-
-}
-
-.piedpage {
-
-width : 90%;
-
-border-width: 0px;
-
-border-color: black;
-
-border-style: solid;
-
-padding:2px;
-
-background-color: #FAF0E6;
-
-border-top-width: 2px;
-
-border-color: black;
-
-border-style: solid;
-
-}
+    width:90%;
+    border-width:0px;
+    border-color: black;
+    border-style: solid;
+    padding:8px;
+    background-color: #FAF0E6;
+    border-bottom-width:2px;
+    border-color: black;
+    border-style: solid;
+    margin:0px auto;
+  }
+/* Anciennement piedpage transformé en appelation " footer " Balise Html de référencement de base.
+ Mais avec les mêmes valeurs ! Juste plus d'erreur dans le validator Html et mieux pour le responsive.*/
+ 
+footer { 
+    width:90%;
+    margin:1px auto;
+    border-width: 0px;
+    border-color: black;
+    border-style: solid;
+    padding:8px;
+    background-color: #FAF0E6;
+    border-top-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
+.Apropos {
+    float: right;
+    font-size: 16px;
+  }
 
 Main {
 
