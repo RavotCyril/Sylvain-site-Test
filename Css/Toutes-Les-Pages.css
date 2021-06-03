@@ -220,19 +220,6 @@ h3 {
   margin-left: 30px;
 }
 
-.piedpage {
-  width: 91%;
-  margin: 0px auto;
-  border-width: 0px;
-  border-color: black;
-  border-style: solid;
-  padding: 2px;
-  background-color: #FAF0E6;
-  border-top-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
-
 a:link {
   color: #00759B;
   text-decoration: none;
@@ -458,7 +445,7 @@ footer {
     height:147px;
   }
 
-  .Intro-Legende-Des-3Photos{       /*-------Figcaption ( légende ) de  l'Introduction des 3 photos Spasky, Fischer, Carlsen ----*/
+  .Intro-Legende-Des-3Photos{  /*-------Figcaption ( légende ) de  l'Introduction des 3 photos Spasky, Fischer, Carlsen ----*/
     
     text-align:center;
     margin:0px;
@@ -514,7 +501,7 @@ footer {
     margin:auto 0px;
     height:200px;
   }
-  .Figure-Citation-Tal-Alekhine figcaption{ /*------- Citation Tal + Alekhine Même taille de photo pour centrer le texte ( figcaption )----*/
+  .Figure-Citation-Tal-Alekhine figcaption{ /*---Citation Tal + Alekhine Même taille de photo pour centrer le texte ( figcaption )----*/
     font-size:0.9rem;
     margin:auto 0px;
     height:136px;
@@ -526,7 +513,7 @@ footer {
     height:250px;
 
   }
-  .Figure-Citation-Alekhine-Lajos-Portish figcaption{  /*------- Alekhine + Portish ( même taille d'image )( figcaption )----*/
+  .Figure-Citation-Alekhine-Lajos-Portish figcaption{  /*----- Alekhine + Portish ( même taille d'image )( figcaption )----*/
 
     font-size:0.9rem;
     margin:auto 0px;
@@ -642,6 +629,901 @@ a{
     color: #00A5DB;
     text-decoration:underline;
 }
-/*-------------------------------------Fin Desktop Page Livres --------------------------------------------------------------*/
+/*-------------------------------------Fin Desktop Page Livres ---------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------Fin Desktop toutes pages------------------------------------------------------------------------------------------------
+------------------------------------------------------------*/
+
+
 
 /*-----------Début Champion du monde styles pour tablette Kindle paysage (min-width:1089px) and (max-width:1280px)-----------*/
+
+@media screen and (min-width:1089px) and (max-width:1280px)
+/* styles pour tablette Kindle paysage*/
+{
+  .Photos-championnat-du-monde {
+      height: 225px;
+      overflow: hidden;
+      margin-left: 30px;
+    }
+  .Table-Tableau {
+  
+      font-size:small;
+    }
+    .Case-Acceder-a-la-partie{
+  
+      text-align:right;
+      background-color:#FFFFFF;
+      width:50px;
+      font-size:10px;
+      padding:3px;
+    }
+    .Case-Marron-Joueur-A-Gauche{
+      width:120px;
+      background-color:#663300;
+      font-size:17px;
+      font-family:"georgia,palatino";
+    }
+/*-------Fin Page Champion du monde  (min-width:1089px) and (max-width:1280px)--------*/
+
+/*----Pas de css pour la Page Index - Chess teaching pour le break point tablette (min-width:1089px) and (max-width:1280px)----*/
+
+/*----Début  Page Themes et Conseils le break point tablette (min-width:1089px) and (max-width:1280px)----*/
+
+    h1{
+    text-align:center;
+    font-size:1.2rem;
+    }
+    .Introduction-Photo-Fischer-simul{
+
+      overflow: hidden;
+    }
+    .Introduction-Photo-Caruana-Carlsen {
+
+      overflow: hidden;
+    }
+
+    .Introduction-Photo-Spassky-Tal{
+
+      overflow: hidden;
+    }
+    .Tipee{
+      display:flex;
+    }
+}
+/*-----------------Fin  Page Themes et Conseils le break point tablette (min-width:1089px) and (max-width:1280px)-------------*/
+
+/*-----------Pas de css pour la Page livre pour le break point tablette (min-width:1089px) and (max-width:1280px)-------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------
+--------Fin le break point tablette (min-width:1089px) and (max-width:1280px) toutes pages--------------------------------
+------------------------------------------------------------*/
+
+
+/*--------Début Page Champion du monde pour le break point tablette -kindle portrait +
+ ipad Portrait - paysage  (min-width:640px) and (max-width:1088px)---------*/
+
+
+@media screen and (min-width:640px) and (max-width:1088px)
+/* styles pour tablettes Kindle portrait + ipad Portrait - paysage  */
+
+{
+  h1 {
+    font-size: 1.75rem;
+  }
+  .bandeau {
+    width: 91.5%;
+  }
+  .Td-Mobile-En-Colonne {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imghaut {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .Photos-championnat-du-monde {
+
+  height: 250px;
+  overflow: hidden;
+  margin-left: 10px;
+
+  }
+  .Table-Tableau {
+
+  width:76%;
+  font-size:xx-small;
+
+  }
+.Table-Tableau12{
+
+  font-size:xx-small;
+  width:60%;
+
+}
+.Table-Tableau13{
+
+  font-size:xx-small;
+  width:30%;
+}
+
+ .Table-Tableau14{
+
+  font-size:xx-small;
+  width:30%;
+}
+ 
+ .Table-Tableau15{
+
+  font-size:xx-small;
+  width:73%;
+}
+ 
+ .Table-Tableau16{
+
+  font-size:xx-small;
+  width:30%;
+}
+ 
+ .Table-Tableau29{
+
+  font-size:xx-small;
+  width:50%;
+}
+ 
+ .Table-Tableau31{
+
+  font-size:xx-small;
+  width:50%;
+
+}
+
+.Table-Tableau31-bis{
+
+  font-size:xx-small;
+  width:40%;
+
+}
+.imgchamp, .imgchamp1, .imgchamp12, .imgchamp13, .imgchamp14, .imgchamp15, .imgchamp16, .imgchamp17, .imgchamp29, .imgchamp31 {
+
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+
+  }
+
+.Case-Acceder-a-la-partie{   
+
+  text-align:right;
+  background-color:#FFFFFF;
+  width:75px;
+  font-size:10px;
+  padding: 3px;
+
+}
+.Case-Marron-Joueur-A-Gauche{
+  width:79px;
+  background-color:#663300;
+  font-size:17px;
+  font-family:"georgia,palatino";
+}
+
+/*----------------Fin  Page Champion du monde pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+
+/*---------------------------Début Page Index pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+
+#Nav-Menu {
+
+  width:90%;
+  margin:1px auto;
+  padding:8px;
+  height:200px;
+  display:flex;
+  margin:0px auto;
+  background:#FAF0E6;
+  font-size:0.8rem;
+  
+}
+.Nav-Section {
+
+  text-align:center;
+  width:25%;
+}
+
+/*----------------Fin  Page Index pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+
+/*--------------- Début Page Themes et conseils pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+.Introduction-Photo-Spassky-Tal{
+  width: 92%;
+  height: auto;
+  overflow: hidden;
+}
+h1{
+  text-align:center;
+  font-size:1.2rem;
+}
+.Figure-Citation img{
+
+  height:auto;
+  width:auto;
+  margin:0px;
+}
+.Tipee{
+  display:flex;
+}
+
+/*--------------- Fin Page Themes et conseils pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+
+/*--------------- Début Page Livre  pour le break point (min-width:640px) and (max-width:1088px)------------------*/
+
+h1{
+  font-size:1.3rem;
+  }
+  .Colone-Gauche-Droite{
+
+      Display:flex;
+      flex-direction:column;
+  }
+  .Colone-Gauche{
+
+      font-size:0.9rem;
+      width:100%;
+  }
+  .Colone-Droite{
+  
+      width:100%;
+  }
+  .Div-Livre{
+
+      height:auto;
+      width:150px;
+      margin:10px;
+  }
+  .fas.fa-star{
+
+      font-size:1.2rem;
+  }
+}
+/*------------------ Fin Page Livre  pour le break point (min-width:640px) and (max-width:1088px)-----------------------*/
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------Fin le break point (min-width:640px) and (max-width:1088px)------------------------------------------------------------------------------------------------
+------------------------------------------------------------*/
+
+/*------------------ Début Page Champion du monde pour le break point (min-width:415px) and (max-width:639px)-----------------*/
+
+@media screen and (min-width:415px) and (max-width:639px)
+/* styles pour mobile paysage+Portrait*/
+{
+.Re-Direction-Version-Bureau {
+  display: inline-block;
+  margin: 10px 0px 0px 25px;
+}
+.Re-Direction-Version-Bureau a {
+  text-decoration: underline;
+}
+.fas.fa-desktop {
+  display: inline-block;
+}
+main {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.grid-container {
+  width:100%;
+}
+.grid-item1 {
+  height: 60px;
+}
+h1 {
+  font-size: 1.5rem;
+}
+.bandeau {
+  width: 92.5%;
+  
+}
+.Td-Mobile-En-Colonne {
+
+  display: flex;
+  flex-direction: column;
+  width: 77%;
+}
+
+.Photos-championnat-du-monde {
+  height: 190px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.imgchamp, .imgchamp1, .imgchamp12, .imgchamp13, .imgchamp14, .imgchamp15, .imgchamp16, .imgchamp17, .imgchamp29, .imgchamp31 {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.Tableau-Page-Entière-Des-47-Championnats{
+
+width:65%
+
+}
+.Case-Acceder-a-la-partie{
+
+text-align:right;
+background-color:#FFFFFF;
+width:50px;
+font-size:10px;
+padding:3px;
+
+}
+.Table-Tableau {
+
+  font-size:xx-small;
+  border-spacing: 0;
+  padding: 0px;
+  
+}
+
+.Table-Tableau12{
+
+font-size:xx-small;
+width:86%;
+
+}
+.Table-Tableau13{
+
+font-size:xx-small;
+width:47%;
+}
+
+.Table-Tableau14{
+
+font-size:xx-small;
+width:51%;
+}
+
+.Table-Tableau15{
+
+font-size:xx-small;
+width:113%;
+}
+
+.Table-Tableau16{
+
+font-size:xx-small;
+width:47%;
+}
+
+.Table-Tableau29{
+
+font-size:xx-small;
+width:78%;
+}
+
+.Table-Tableau31{
+
+font-size:xx-small;
+width:112%;
+
+}
+
+.Table-Tableau31-bis{
+
+font-size:xx-small;
+width:59%;
+
+}
+.Score-Final {
+  margin-top: 5px;
+  font-size: 100%;
+}
+
+/*------------------ Fin Page Champion du monde pour le break point (min-width:415px) and (max-width:639px)-----------------*/
+
+/*------------------ Début Page Index pour le break point (min-width:415px) and (max-width:639px)---------------------------*/
+  .bandeau {
+  
+      width:100%;
+      margin:0px;
+      padding:0px;
+  }
+  
+  #Nav-Menu {
+  
+      width:100%;
+      height:200px;
+      margin:0px;
+      padding:0px;
+      display:flex;
+      background:#FAF0E6;
+      font-size:0.5rem;
+  
+  }
+  .Nav-Section {
+  
+      text-align:center;
+      width:25%;
+  }
+  h2{
+      font-size:0.9rem;
+  }
+  .Image-Methodes-Etapes img{
+  
+      display:block;
+      width:60%;
+      text-align:center;
+  }   
+  footer{
+  
+      width:100%;
+      margin:0px;
+      padding:0px;
+  }
+/*------------------ Fin Page Index pour le break point (min-width:415px) and (max-width:639px)-----------------------------*/
+
+ /*-----------------Début Themes et conseils pour le break point (min-width:415px) and (max-width:639px)---------------------*/
+
+ .bandeau {
+  width:96%;
+  margin:0px;
+  padding:1px 2%;
+}
+
+h1{
+text-align: center;
+font-size:0.85rem;
+}
+.Organisation-des-3-Photos-Introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap:initial;
+}
+.Introduction-Photo-Caruana-Carlsen {
+
+  width:84%;
+  height:auto;
+  overflow: hidden;
+}
+.Introduction-Photo-Fischer-simul{
+  
+  width:88%;
+  height:auto;
+  overflow: hidden;
+}
+.Introduction-Photo-Spassky-Tal{
+    
+  width:92%;
+  height:auto;
+  overflow: hidden;
+}
+
+.Figure-Citation{
+
+  width:100%;
+  background: #DADADA;
+  border-radius: 10px;
+  text-align: center;
+  margin:0px;
+
+}
+
+.Tipee{
+  display:flex;
+}
+
+ /*-----------------Fin Themes et conseils pour le break point (min-width:415px) and (max-width:639px)---------------------*/
+
+  /*-----------------Début Page Livre pour le break point (min-width:415px) and (max-width:639px)---------------------*/
+
+  h1{
+    font-size:0.90rem;
+}
+header{
+    width:100%;
+}
+
+.Colone-Gauche-Droite{
+
+    Display:flex;
+    flex-direction:column;
+}
+.Colone-Gauche{
+
+    font-size:0.55rem;
+    width:100%;
+}
+.Colone-Droite{
+
+    width:100%;
+}
+.Div-Livre{
+
+    height:auto;
+    width:150px;
+    margin:10px;
+}
+.fas.fa-star{
+
+    font-size:1rem;
+}
+
+}
+/*-----------------Fin  Page Livre pour le break point (min-width:415px) and (max-width:639px)---------------------*/
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------
+--------------------------------Fin le break point (min-width:415px) and (max-width:639px)------------------------------------------------------------------------------------------------
+------------------------------------------------------------*/
+
+
+/*-----------------Début Champion du monde pour le break point (min-width:414px) ---------------------*/
+
+@media screen and (max-width:414px)
+/* styles pour ecran mobile très petit paysage+Portrait*/
+{
+  main {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .grid-container {
+    width:72%;
+  }
+  .grid-item,.grid-item1,.grid-item2 {
+    height: 40px;
+    width: 40px;
+    font-size: 0.6em;
+  }
+  .bandeau {
+    width: 94.5%;
+  }
+  
+  .Contact-Apropos {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contact {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .Score-Final {
+    margin-top: 5px;
+    font-size: 120%;
+  }
+  .Photos-championnat-du-monde {
+    height: 150px;
+    overflow: hidden;
+  }
+  .imgchamp, .imgchamp1, .imgchamp12, .imgchamp13, .imgchamp14, .imgchamp15, .imgchamp16, .imgchamp17, .imgchamp29, .imgchamp31 {
+    display: flex;
+    justify-content: left;
+  }
+  h3 img {
+    margin:0px;
+  }
+  .Table-Tableau {
+    width:10%;
+    border-spacing: 0;
+    padding: 0px;
+    font-size: xx-small;
+    font-variant: diagonal-fractions;
+  }
+  .Table-Tableau12{
+
+    font-size:xx-small;
+    width:10%;
+  
+  }
+  .Table-Tableau13{
+  
+    font-size:xx-small;
+    width:10%;
+  }
+  
+   .Table-Tableau14{
+  
+    font-size:xx-small;
+    width:10%;
+  }
+   
+   .Table-Tableau15{
+  
+    font-size:xx-small;
+    width:15%;
+  }
+   
+   .Table-Tableau16{
+  
+    font-size:xx-small;
+    width:10%;
+  }
+   
+   .Table-Tableau29{
+  
+    font-size:xx-small;
+    width:10%;
+  }
+   
+   .Table-Tableau31{
+  
+    font-size:xx-small;
+    width:10%;
+  
+  }
+  
+  .Table-Tableau31-bis{
+  
+    font-size:xx-small;
+    width:10%;
+  
+  }
+  .Td-Mobile-En-Colonne {
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+  }
+  .Score-Final {
+    margin-top: 5px;
+    font-size: 60%;
+  }
+  footer{
+    width:100%;
+  }
+/*-----------------Fin Champion du monde pour le break point (min-width:414px) ---------------------*/
+
+
+/*-----------------Début Page index pour le break point (min-width:414px) ---------------------*/
+
+.bandeau {
+
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+.Nav-Section {
+
+  text-align:center;
+  width:18%;
+}
+#Nav-Menu {
+
+  width:100%;
+  height:200px;
+  display:flex;
+  background:#FAF0E6;
+  font-size:0.4rem;
+  
+}
+Main {
+width:100%;
+margin:0px;
+padding:0px;
+}
+.Nav-Section {
+
+text-align:center;
+width:25%;
+}
+h2{
+font-size:0.7rem;
+}
+.Image-Methodes-Etapes img {
+
+display:block;
+width:100%;
+text-align:center;
+}
+.Image-Logo-Chess-Games img{
+
+display:block;
+width:50%;
+text-align:center;
+}   
+
+/*-----------------Début Page index pour le break point (min-width:414px) ---------------------*/
+
+/*-----------------Début Page Themes et conseils pour le break point (min-width:414px) ---------------------*/
+.bandeau {
+  width:96%;
+  margin:0px;
+  padding:2%;
+}
+
+h1{
+  font-size:0.7rem;
+}
+h2{
+
+  font-size:1rem;
+
+ }
+.Citation-Intro{ 
+
+  width:100%;
+  display:flex; 
+  flex-direction:column;
+
+}
+
+.Tableau-Coup-De-Coeur{
+
+font-size:small;
+width:100%; 
+
+}
+.Organisation-des-3-Photos-Introduction {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.Introduction-Photo-Fischer-simul{
+
+  width:88%;
+  height:auto;
+  overflow: hidden;
+}
+.Introduction-Photo-Caruana-Carlsen {
+
+  width:84%;
+  height:auto;
+  overflow: hidden;
+}
+
+.Introduction-Photo-Spassky-Tal{
+
+  width:100%;
+  height:auto;
+  overflow: hidden;
+}
+.Citation-Bloc{
+
+  background: #DADADA; 
+  width:100%; 
+  display:flex; 
+  flex-direction:column;
+  align-items: center;
+  margin:10px 0px 0px 0px;
+}
+.Citation-Intro .Capablanca{
+  display: flex;
+  flex-direction:column;
+  width:100%;
+  margin:0px 0px;
+}
+.Citation-Intro .Capablanca figcaption{
+
+  margin:10px auto;
+  height:auto;
+}
+.Figure-Citation, .Figure-Citation, .Figure-Citation-Tal-Alekhine, .Figure-Citation-Paul-Keres, .Figure-Citation-Alekhine-Lajos-Portish, .Figure-Citation-Tartakover, .Figure-Citation-David-Bronstein, .Figure-Citation-Lasker, .Capablanca{
+
+  display:flex;
+  flex-direction:column;
+  width:auto;
+  height:auto;
+  margin:0px auto;
+  overflow: hidden;
+
+}
+.Figure-Citation img, .Figure-Citation img, .Figure-Citation-Tal-Alekhine img, .Figure-Citation-Paul-Keres img, .Figure-Citation-Alekhine-Lajos-Portish img, .Figure-Citation-Tartakover img, .Figure-Citation-David-Bronstein img, .Figure-Citation-Lasker img, .Capablanca img{
+
+  height:auto;
+  overflow: hidden;
+  margin:0px auto;
+}
+.Figure-Citation figcaption, .Figure-Citation figcaption, .Figure-Citation-Tal-Alekhine figcaption, .Figure-Citation-Paul-Keres figcaption, .Figure-Citation-Alekhine-Lajos-Portish figcaption, .Figure-Citation-Tartakover figcaption, .Figure-Citation-David-Bronstein figcaption, .Figure-Citation-Lasker figcaption, .Capablanca figcaption{
+
+  margin:10px 0px;
+  height:auto;
+}
+.Figure-Citation img{
+width:280px;
+
+}
+.Figure-Citation-Tal-Alekhine img{
+width:207px;
+
+}
+.Figure-Citation-Paul-Keres img{
+width:260px;
+
+
+}
+.Figure-Citation-Alekhine-Lajos-Portish img{
+width:220px;
+
+}
+.Figure-Citation-Tartakover img{
+width:204px;
+
+}
+.Figure-Citation-David-Bronstein img{
+width:205px;
+
+}
+.Figure-Citation-Lasker img{
+width:205px;
+
+}
+.Capablanca img{
+
+  width:230px;
+
+}
+
+.Tipee{
+
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  height:auto;
+}
+.Tipee img{
+  margin:0px 0px 10px 0px;
+}
+
+/*-----------------Fin Page Themes et conseils pour le break point (min-width:414px) ---------------------*/
+
+/*-----------------Début Page livre pour le break point (min-width:414px) ---------------------*/
+
+h1{
+  font-size:0.8rem;
+}
+header{
+ width:100%;
+ margin:0px;
+ padding:0px;
+}
+
+.Colone-Gauche-Droite{
+
+  Display:flex;
+  flex-direction:column;
+}
+.Colone-Gauche{
+
+  font-size:0.55rem;
+  width:100%;
+}
+.Colone-Gauche p{
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.Colone-Droite{
+
+  width:100%;
+}
+.Div-Livre{
+
+  height:auto;
+  width:150px;
+  margin:10px;
+}
+.fas.fa-star{
+
+  font-size:0.8rem;
+
+}
+}
+/*-----------------Fin Page livre pour le break point (min-width:414px) ---------------------*/
+
+
+   /*----------------------------------------------------------------------------------------------------------
+  --------------------------------Fin le break point (min-width:415px) and (max-width:639px)-------------------
+  ------------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------Fin CSS de toutes les pages  --------------------------------------------*/
+
