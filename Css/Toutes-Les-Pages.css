@@ -329,7 +329,7 @@ nav a:hover{
 
 .Titre-h2-Navigation-Page-Chess-teaching{
 
-    font-size:1rem;
+    font-size:0.8rem;
     margin:0px;
     cursor:pointer;
     color:black;
@@ -338,7 +338,15 @@ nav a:hover{
 
     text-align:left;
 }
+.Sites-recommandés{  /* Anciennement tableau existant pour les logos  td -  tr
+   transformé en div avec une classe " Sites-recommandés" plus pratique pour le responsive et aligné
+    comme l'avais fait Sylvain */
+  
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
 
+}
 /* Anciennement piedpage transformé en appelation " footer " Balise Html de référencement de base.
  Mais avec les mêmes valeurs ! Juste plus d'erreur dans le validator Html et mieux pour le responsive.*/
 footer { 
@@ -393,11 +401,13 @@ footer {
   Section{
     margin:0px auto;
   }
-  .Organisation-des-3-Photos-Introduction {
+  .Organisation-des-3-Photos-Introduction-Page-Themes-Et-Conseils {
 
-    display: flex;
-    width:80%;
-    margin:0px auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap:initial;
+    width:100%;
+
   }
 
   .Figure-Intro{
@@ -457,8 +467,8 @@ footer {
 
   .Introduction-Photo-Spassky-Tal, .Introduction-Photo-Fischer-simul, .Introduction-Photo-Caruana-Carlsen {
 
-    height:250px;
-    width:100%;
+    height:275px;
+    width:275px;
     overflow: hidden;
     margin:0px auto;
   }
@@ -466,7 +476,7 @@ footer {
     width:100%;
     height:100%;
     object-fit: cover;
-    object-position: center;
+    object-position:bottom;
   }
 
   .Citation-Bloc{
@@ -500,6 +510,7 @@ footer {
     font-size:0.9rem;
     margin:auto 0px;
     height:200px;
+    letter-spacing: 1px;
   }
   .Figure-Citation-Tal-Alekhine figcaption{ /*---Citation Tal + Alekhine Même taille de photo pour centrer le texte ( figcaption )----*/
     font-size:0.9rem;
@@ -569,7 +580,20 @@ a{
     color:#005875;
     ;
 }
-
+.Title{
+  font-size:2rem;
+  text-align: center;
+  font-weight:bold;
+}
+  .Chess-Teaching{
+  font-size:2rem;
+  }
+  .Enseignement-Du-Jeu-Dechecs{
+    font-size:1.5rem;
+  }
+.Title a:visited{
+  color:black;
+}
 .Titre-h1-h2-h3-Page-Livre{
     text-align:center;
     color:#0e0e96;
@@ -839,10 +863,27 @@ a{
 /*----------------Fin  Page Index pour le break point (min-width:640px) and (max-width:1088px)------------------*/
 
 /*--------------- Début Page Themes et conseils pour le break point (min-width:640px) and (max-width:1088px)------------------*/
-.Introduction-Photo-Spassky-Tal{
-  width: 92%;
-  height: auto;
+.Organisation-des-3-Photos-Introduction-Page-Themes-Et-Conseils {
+
+  display:flex;
+  justify-content:center;
+  flex-wrap:initial;
+  width:100%;
+
+}
+.Figure-Intro{
+
+  height:300px;
+  width:175px;
   overflow: hidden;
+  margin:5px;
+}
+.Introduction-Photo-Spassky-Tal, .Introduction-Photo-Fischer-simul, .Introduction-Photo-Caruana-Carlsen {
+
+  height:250px;
+  width:175px;
+  overflow: hidden;
+  margin:0px;
 }
 h1{
   text-align:center;
@@ -913,9 +954,9 @@ h1{
   display: inline-block;
 }
 main {
-  width: 100%;
+  width:99%;
   margin: 0px;
-  padding: 0px;
+  padding:1px 0px 1px 1%;
 }
 .grid-container {
   width:100%;
@@ -1024,6 +1065,11 @@ width:59%;
   margin-top: 5px;
   font-size: 100%;
 }
+footer{
+  width:100%;
+  padding:0px;
+  margin:0px;
+}
 
 /*------------------ Fin Page Champion du monde pour le break point (min-width:415px) and (max-width:639px)-----------------*/
 
@@ -1060,12 +1106,12 @@ width:59%;
       width:60%;
       text-align:center;
   }   
-  footer{
-  
-      width:100%;
-      margin:0px;
-      padding:0px;
-  }
+  .Image-Logo-Chess-Games img{
+
+    display:block;
+    width:75%;
+    text-align:center;
+    }   
 /*------------------ Fin Page Index pour le break point (min-width:415px) and (max-width:639px)-----------------------------*/
 
  /*-----------------Début Themes et conseils pour le break point (min-width:415px) and (max-width:639px)---------------------*/
@@ -1080,7 +1126,7 @@ h1{
 text-align: center;
 font-size:0.85rem;
 }
-.Organisation-des-3-Photos-Introduction {
+.Organisation-des-3-Photos-Introduction-Page-Themes-Et-Conseils{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1100,7 +1146,7 @@ font-size:0.85rem;
 }
 .Introduction-Photo-Spassky-Tal{
     
-  width:92%;
+  width:64%;
   height:auto;
   overflow: hidden;
 }
@@ -1128,6 +1174,8 @@ font-size:0.85rem;
 }
 header{
     width:100%;
+    padding:0px;
+    margin:0px;
 }
 
 .Colone-Gauche-Droite{
@@ -1170,15 +1218,15 @@ header{
 @media screen and (max-width:414px)
 /* styles pour ecran mobile très petit paysage+Portrait*/
 {
-  main {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
+  main{
+    width:99%;
+    margin:0px;
+    padding:1px 0px 1px 1%;
   }
   .grid-container {
     width:72%;
   }
-  .grid-item,.grid-item1,.grid-item2 {
+  .grid-item,.grid-item1,.grid-item2{
     height: 40px;
     width: 40px;
     font-size: 0.6em;
@@ -1187,7 +1235,7 @@ header{
     width: 94.5%;
   }
   
-  .Contact-Apropos {
+  .Contact-Apropos{
     display: flex;
     flex-direction: column;
   }
@@ -1197,11 +1245,11 @@ header{
   h3 {
     font-size: 18px;
   }
-  .Score-Final {
+  .Score-Final{
     margin-top: 5px;
     font-size: 120%;
   }
-  .Photos-championnat-du-monde {
+  .Photos-championnat-du-monde{
     height: 150px;
     overflow: hidden;
   }
@@ -1209,10 +1257,10 @@ header{
     display: flex;
     justify-content: left;
   }
-  h3 img {
+  h3 img{
     margin:0px;
   }
-  .Table-Tableau {
+  .Table-Tableau{
     width:10%;
     border-spacing: 0;
     padding: 0px;
@@ -1279,6 +1327,8 @@ header{
   }
   footer{
     width:100%;
+    padding:0px;
+    margin:0px;
   }
 /*-----------------Fin Champion du monde pour le break point (min-width:414px) ---------------------*/
 
@@ -1303,13 +1353,11 @@ header{
   display:flex;
   background:#FAF0E6;
   font-size:0.4rem;
+  padding:0px;
+  margin:0px;
   
 }
-Main {
-width:100%;
-margin:0px;
-padding:0px;
-}
+
 .Nav-Section {
 
 text-align:center;
@@ -1327,11 +1375,11 @@ text-align:center;
 .Image-Logo-Chess-Games img{
 
 display:block;
-width:50%;
+width:75%;
 text-align:center;
 }   
 
-/*-----------------Début Page index pour le break point (min-width:414px) ---------------------*/
+/*-----------------Fin Page index pour le break point (min-width:414px) ---------------------*/
 
 /*-----------------Début Page Themes et conseils pour le break point (min-width:414px) ---------------------*/
 .bandeau {
@@ -1362,7 +1410,7 @@ font-size:small;
 width:100%; 
 
 }
-.Organisation-des-3-Photos-Introduction {
+.Organisation-des-3-Photos-Introduction-Page-Themes-Et-Conseils {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -1426,6 +1474,8 @@ width:100%;
 
   margin:10px 0px;
   height:auto;
+  letter-spacing: 1px;
+
 }
 .Figure-Citation img{
 width:280px;
