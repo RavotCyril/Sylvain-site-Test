@@ -594,7 +594,10 @@ a{
 .Title a:visited{
   color:black;
 }
-.Titre-h1-h2-h3-Page-Livre{
+.Titre-h1-Meilleur-Livre{
+  color:black;
+}
+.Titre-h2-h3-Page-Livre{
     text-align:center;
     color:#0e0e96;
 }
@@ -1067,7 +1070,7 @@ width:59%;
 }
 footer{
   width:100%;
-  padding:0px;
+  padding:1px 0px;
   margin:0px;
 }
 
