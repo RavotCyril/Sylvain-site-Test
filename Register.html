@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chess-Teaching &amp; Enseignement-Du-Jeu-Dechecs</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/nb.css" />
+        <script src="/js/jquery-3.4.1.min.js"></script>
+        <script src="/js/menu.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="Title">
+              <a href="http://www.chess-teaching.com/" style="text-decoration: none;">
+              <h1><span class="Chess-Teaching">Chess Teaching</span><br>
+              <span class="Enseignement-Du-Jeu-Dechecs">Enseignement du Jeu d’Échecs</span></h1>
+              </a>
+            </div>
+          </header>
+        <main>
+            <h2>Create your chess trainer profile <br><br>Merci de compléter le formulaire suivant pour nous contacter. Tous les champs de ce formulaire sont requis.</h2>
+            <section id="pageContent">
+            <section class="Colone-1">
+                <h1>Données personnelles</h1>
+                <h2>Please note that you can be considered as a chess trainer only if :</h2><br><br>
+                1) You have pedagogical skills <br>(Vous avez des compétences pédagogiques)<br><br>
+                2) You have some years of experience <br><br>(Vous avez quelques années d'expérience)<br><br>
+                3) You teach (or have taught) chess as a job (main one or not) <br><br>( Vous enseignez (ou avez enseigné) <br> les échecs en tant que métier (principal ou non))
+                <br><br>
+                <br><br>
+                <br><br>
+                <form id="frmContact1" action="merci.html">
+                    <div>
+                        <div>
+                            <label for="fName">Username (Prénom)</label>
+                            <input type="text" id="fName" required autofocus />
+                        </div>
+                        <div>
+                            <label for="Password">Password (Mot de passe)</label>
+                            <input type="text" name="Password" id="Password" required>
+                        </div>
+                        <div>
+                            <label for="Password-Confirmation">Password confirmation (Mot de passe confirmation) <br> Be careful, the password will be encrypted and it will only be possible to change it with your email. (Attention, le mot de passe sera crypté et il ne sera possible de le changer qu'avec votre email.)<br><br></label>
+                            <input type="text" name="Password-Confirmation" id="Password-Confirmation" required />
+                        </div>
+                        <div>
+                            <label for="email">Votre e-mail The website won't communicate it. (Le site Web ne le communiquera pas.)<br><br></label>
+                            <input type="email" name="email" id="email" required >
+                            <br>
+                            <br>
+                            <br>
+                            <input type="checkbox" name="email"> I agree to receive some emails per year about the website main updates<br>(J'accepte de recevoir des e-mails par an sur les principales mises à jour du site)
+                        </div>
+                        <div>
+                            <label for="email">First Name (Nom)</label>
+                            <input type="text" name="checkbox" id="checkbox" required>
+                        </div>
+                        <div>
+                            <label for="Surname">Surname (Prénom)</label>
+                            <input type="text" name="Surname" id="Surname" required>
+                            <p>
+                                <br>
+                                <input type="checkbox" checked="" id="profilpublic" name="profilpublic"> Public profile (Profil Public)<br> Uncheck this box if you don't want your trainer profile to be public.<br> (Décochez cette case si vous ne souhaitez pas que votre profil de formateur soit public.)
+                            </p>
+                        </div>
+                        <div class="message">
+                            <label for="message">Your message (Votre message)</label>
+                            <textarea name="message" required> </textarea>
+                        </div>
+                    </div>
+                </form>
+            </section><!--Ici se termine le #pageContent-->
+            <section class="Colone-2">
+                <h1>Données de localisation/professionnelles</h1>
+                <form id="frmContact2" action="merci.html">
+                    <div>
+                        <label for="Town">Town (Ville)</label>
+                        <input type="text" id="Town" required />
+                    </div>
+                    <div>
+                        <label for="Country">Country (Pays)</label>
+                        <input type="text" id="Country" required />
+                    </div>
+                    <div>
+                        <label for="Experience">Experience : since </label><br> which year you began to teach chess seriously<br><br>( Expérience : Depuis combien de temps<br>En quelle année vous avez commencé à enseigner sérieusement les échecs)
+                        <br><br><input type="text" name="Exprience" id="Experience" required />
+                    </div>
+                    <div>
+                        <label for="Rating">Elo rating (Classement Elo Fide)</label>
+                        <input type="text" name="Rating" id="Rating" required>
+                    </div>
+                        <select name="titre"><option value="No">No</option><option value="GM">GM</option><option value="IM">IM</option><option value="WGM">WGM</option><option value="FM">FM</option></select>
+                        Do you have a trainer title ? <select name="titretr"><option value="No">No</option><option value="International">International</option><option value="National">National</option></select><br>
+                    <div>
+                    <div>
+                        <br><br><p><label for="message"> Anti-spam : in which year Fischer became world champion ? <br> Anti-spam : en quelle année Fischer est devenu champion du monde ?</label></p>
+                        <textarea id="message" required> </textarea>
+                    </div>
+                    </div>
+                    <div class="Classe-button"><button type="submit">Create profile</button>
+                    <button type="submit">Envoyer</button></div>
+                <div>
+                    <img src="img/coach.gif" alt="Image Coach" width="180">
+                </div>
+                </form>
+            </section>
+            </section>
+        </main>
+        <footer id="mainFooter">
+            <span class="Contact"><u><em>Contact</em></u> : <b>contact@chess-teaching.com</b></span>
+            <span class="Apropos">
+            <a href="http://www.chess-teaching.com/a_propos.php">À propos</a>
+            <!-- abonnement à la newsletter des entraîneurs  -->
+            </span>
+        </footer><!--Ici se termine le #mainFooter-->
+    </body>
+</html>

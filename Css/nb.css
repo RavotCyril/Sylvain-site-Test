@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Raleway&display=swap');
+
+:root {
+    --black: #333;
+    --blue: #7186FF;
+    --red: #074569;
+    --shaded-red: rgb(223, 149, 149);
+    --green: #00751F;
+    --white: #FFF;
+
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1rem;
+    font-family: Raleway, Verdana, san-serif;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#mainHeader{
+    display: grid;
+    grid-template-columns: 80px 1fr 40px;
+    align-items: start;
+    background-color: var(--red);
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+#mainHeader h1{
+    
+    color: var(--white);
+    font-family: Cantarell, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    width:100%;
+    background: #FAF0E6;
+}
+.Title{
+    margin:0px;
+}
+.Title a{
+
+    color:black;
+}
+h1{
+    
+    width:99%;
+    text-align: center;
+    padding:25px;
+    margin:0px 0px 20px 0px;
+    background-color: #FAF0E6;
+    border-bottom:2px solid;
+    border-color: black;
+}
+h2{
+    margin:25px 0px 25px 0px;
+    width:100%;
+    text-align: center;
+    font-size:1.5rem;
+}
+#logoImg{
+    padding: 5px;
+    z-index: 1000;
+}
+#mainNav{
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    padding-bottom: 10px;
+    display: none;
+}
+#mainNav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 90px;
+}
+#mainNav a{
+    color: var(--white);
+    text-decoration: none;
+    font-family: Cantarell, Arial, sans-serif;
+    font-size: 1.5em;
+    display: block;
+    margin: 10px;
+}
+#mainNav a:hover{
+    color: var(--shaded-blue);
+}
+#menuToggle{
+    background-color: transparent;
+    border: none;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    align-self: start;
+    margin-left: auto;
+
+}
+
+#pageContent {
+
+    min-height: 100vh;
+    background-image: url(/Css/bgcases.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.Colone-1{
+
+    border:1px solid black;
+    padding:0px 0px 0px 10px;
+    width:50%;
+}
+
+.Colone-2{
+
+    border:1px solid black;
+    padding:0px 0px 0px 10px;
+    width:50%;
+}
+.message{
+
+    width:50%;
+}
+.message textarea{
+
+    font-size:1rem;
+    margin:10px;
+}
+main{
+    background-color: rgb(112, 137, 198);;
+    color: var(--black);
+    font-weight: bold;
+    color:black;
+    padding:20px ;
+}
+div{
+    margin:0px 0px 50px 0px;
+}
+.Classe-button{
+    text-align: center;
+}
+button:hover{
+    color:blue;
+    cursor:pointer;
+}
+#pageContent.home{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#pageContent{
+    display:flex;
+}
+
+#pageContent.text h1{
+    font-size: 1.8em;
+    color: var(--red);
+    letter-spacing: .1em;
+}
+#pageContent.text h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: .1em;
+    margin-top: 50px;
+}
+#pageContent.text a{
+    color: var(--black);
+    text-decoration: none;
+}
+#pageContent.text a:hover{
+    text-decoration: underline;
+    color:blue;
+}
+#pageContent.text img{
+    max-width: 100%;
+    height: auto;
+}
+
+#pageContent form{
+    display: grid;
+    border-top: solid 1px var(--white);
+}
+#pageContent form > div > div {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px 0;
+}
+#pageContent form > div:last-child > div:first-child{
+    margin: 0 0 20px 0;
+}
+#pageContent form label{
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+#pageContent form textarea {
+    height: 150px;
+    resize: none;
+}
+#pageContent form button{
+    padding: 10px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    margin-top: 30px;
+}
+#pageContent form button:hover{
+    background-color: blue;
+}
+#pageContent form button:active{
+    background-color:blue;
+}
+#pageContent form .msg{
+    font-size: .8em;
+    color: rgb(88, 1, 1);
+    margin-left: 20px;
+}
+#pageContent form input, #pageContent form textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(162, 162, 255);
+}
+#pageContent form input:valid, #pageContent form textarea:valid {
+    border: 1px solid var(--green);
+}
+#pageContent form input.invalid, #pageContent form textarea.invalid {
+    border: 1px solid var(--red);
+}
+
+#mainFooter{
+    background-color: var(--red);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: var(--white);
+    font-size: .5em;
+    background: #FAF0E6;
+    border-top: 2px solid;
+    border-color: black;
+}
+.Contact {
+    text-align:left;
+    font-size: 16px;
+    color:black;
+  }
+  .Apropos{
+      float:right;
+  }
+  .Apropos a{
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+  }
+  .Apropos :hover{
+      color:blue;
+  }
